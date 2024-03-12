@@ -1,0 +1,35 @@
+/* CONTAINER */
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* TEXT BOX */
+.text-box {
+  width: 60%;
+  height: 60vh;
+  background-color: #1e2f46;
+  padding: 3rem 20rem 1rem 2rem;
+  text-wrap: pretty;
+}
+.text-box h3 {
+  font-size: 32px;
+  padding-bottom: 2rem;
+}
+
+/* IMAGE */
+.image-container {
+  width: 60%;
+  height: 60vh;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  overflow: hidden;
+}
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 3/2;
+}

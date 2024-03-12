@@ -1,0 +1,8 @@
+.carousel {
+  height: 480px;
+  overflow: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  display: inline-flex;
+  align-items: center;
+}

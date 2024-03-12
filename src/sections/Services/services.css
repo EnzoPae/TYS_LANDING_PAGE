@@ -1,0 +1,10 @@
+.services-section-container {
+  padding: 5rem 0px 0px 10rem;
+  min-height: 100vh;
+  background-color: #0d1623;
+  color: #fff;
+}
+.services-section-container h2 {
+  font-size: 38px;
+  padding-bottom: 3rem;
+}
