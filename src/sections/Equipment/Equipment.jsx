@@ -11,7 +11,7 @@ const Equipment = () => {
         src={BgImage}
         alt={"imagen de equipos fijos"}
         title={"EQUIPOS FIJOS"}
-        text={text}
+        text={""}
       />
     </section>
   );
