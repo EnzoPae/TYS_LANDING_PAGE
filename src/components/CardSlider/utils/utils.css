@@ -43,7 +43,7 @@
     min-width: calc(100% / 2.5);
   }
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 400px) {
   .card-container {
     min-width: 100%;
   }
