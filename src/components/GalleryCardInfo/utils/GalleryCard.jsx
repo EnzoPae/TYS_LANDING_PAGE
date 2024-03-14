@@ -9,18 +9,21 @@ const GalleryCard = ({ previous, next, header, title, description }) => {
       <header>{header}</header>
       <h4>{title}</h4>
       <p>{description}</p>
-      <Image
-        src={ArrowLeft}
-        alt="icono de flecha izquierda"
-        width={25}
-        onClick={previous}
-      />
-      <Image
-        src={ArrowRight}
-        alt="icono de flecha derecha"
-        width={25}
-        onClick={next}
-      />
+      <a>Leer más</a>
+      <div className="arrows">
+        <Image
+          src={ArrowLeft}
+          alt="icono de flecha izquierda"
+          width={25}
+          onClick={previous}
+        />
+        <Image
+          src={ArrowRight}
+          alt="icono de flecha derecha"
+          width={25}
+          onClick={next}
+        />
+      </div>
     </aside>
   );
 };
