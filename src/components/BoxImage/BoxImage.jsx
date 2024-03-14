@@ -5,7 +5,7 @@ const BoxImage = ({ src, alt, title, text }) => {
   return (
     <div className="container">
       <div className="text-box">
-        <h3>{title}</h3>
+        <div className="title">{title}</div>
         <p>{text}</p>
       </div>
       <div className="image-container">

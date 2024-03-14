@@ -13,8 +13,9 @@
   padding: 3rem 20rem 1rem 2rem;
   text-wrap: pretty;
 }
-.text-box h3 {
+.text-box .title {
   font-size: 32px;
+  font-weight: bold;
   padding-bottom: 2rem;
 }
 

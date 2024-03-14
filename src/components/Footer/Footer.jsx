@@ -7,7 +7,7 @@ const Footer = () => {
     <footer>
       <div className="footer">
         <div>
-          <h6>Lorem Ipsum</h6>
+          <div className="title">Lorem Ipsum</div>
           <ul>
             <li>Lorem Ipsum</li>
             <li>Lorem Ipsum</li>
@@ -16,14 +16,14 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h6>Lorem Ipsum</h6>
+          <div className="title">Lorem Ipsum</div>
           <ul>
             <li>Lorem Ipsum</li>
             <li>Lorem Ipsum</li>
           </ul>
         </div>
         <div>
-          <h6>Lorem Ipsum</h6>
+          <div className="title">Lorem Ipsum</div>
           <ul>
             <li>Lorem Ipsum</li>
             <li>Lorem Ipsum</li>
@@ -33,7 +33,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h6>Lorem Ipsum</h6>
+          <div className="title">Lorem Ipsum</div>
           <ul>
             <li>Lorem Ipsum</li>
             <li>Lorem Ipsum</li>

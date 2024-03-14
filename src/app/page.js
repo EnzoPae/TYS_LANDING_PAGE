@@ -1,4 +1,10 @@
-import { Hero, Services, Equipment, GalleryExample } from "@/sections";
+import {
+  Hero,
+  Services,
+  Equipment,
+  GalleryExample,
+  GalleryExample2,
+} from "@/sections";
 import { Navbar, Footer } from "@/components";
 
 export default function Home() {
@@ -9,6 +15,7 @@ export default function Home() {
         <Hero />
         <Services />
         <GalleryExample />
+        <GalleryExample2 />
         <Equipment />
       </main>
       <Footer />

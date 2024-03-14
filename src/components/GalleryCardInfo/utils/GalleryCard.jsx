@@ -7,9 +7,9 @@ const GalleryCard = ({ previous, next, header, title, description }) => {
   return (
     <aside className="gallery-card">
       <header>{header}</header>
-      <h4>{title}</h4>
+      <div className="title">{title}</div>
       <p>{description}</p>
-      <a>Leer más</a>
+      <a href="#">Leer más</a>
       <div className="arrows">
         <Image
           src={ArrowLeft}

@@ -35,9 +35,10 @@
   color: #aeaeae;
   grid-area: header;
 }
-.gallery-card h4 {
+.gallery-card .title {
   color: #006cff;
   font-size: 24px;
+  font-weight: bold;
   grid-area: title;
 }
 .gallery-card p {
