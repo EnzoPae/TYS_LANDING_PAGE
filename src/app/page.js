@@ -1,5 +1,5 @@
 import { Hero, Services, Equipment, GalleryExample } from "@/sections";
-import { Navbar } from "@/components";
+import { Navbar, Footer } from "@/components";
 
 export default function Home() {
   return (
@@ -7,9 +7,10 @@ export default function Home() {
       <main>
         <Hero />
         <Services />
+        <GalleryExample />
         <Equipment />
-        <GalleryExample/>
       </main>
+      <Footer />
       {/* <Navbar /> */}
     </>
   );
