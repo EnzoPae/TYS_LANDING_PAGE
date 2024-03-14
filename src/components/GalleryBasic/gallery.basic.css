@@ -1,0 +1,38 @@
+.gallery-basic-container {
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gallery-basic {
+  height: 80%;
+  width: 100%;
+  position: relative;
+  box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.1);
+}
+.gallery-basic-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.gallery-basic-arrows svg {
+  position: absolute;
+  top: 50%;
+  background-color: #006cff;
+  border-radius: 50%;
+  scale: 1.5;
+  padding: 0.3rem;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.gallery-basic-arrows svg:hover {
+  scale: 1.6;
+}
+.gallery-basic-arrows svg:first-child {
+  left: -1rem;
+}
+.gallery-basic-arrows svg:last-child {
+  right: -1rem;
+}
