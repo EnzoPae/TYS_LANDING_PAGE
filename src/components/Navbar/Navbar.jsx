@@ -5,12 +5,12 @@ import logo from "@/assets/logo.webp";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <Image src={logo} alt="" width={60} />
+      <Image src={logo} alt="logo terminales y servicios" width={60} />
       <ul className="navbar-menu">
-        <li>Home</li>
-        <li>Explore</li>
-        <li>About</li>
-        <li className="navbar-item-contact">Contacto</li>
+        <li className="item">Home</li>
+        <li className="item">Explore</li>
+        <li className="item">About</li>
+        <li className="item">Systems</li>
       </ul>
     </div>
   );
