@@ -8,7 +8,9 @@ const CardSlider = ({ cards }) => {
   const firstImgRef = useRef(null);
 
   const handleIconClick = (direction) => {
-    const firstImgWidth = firstImgRef.current.clientWidth + 14;
+    const firstImgWidth = firstImgRef.current.clientWidth + 40;
+    console.log(firstImgWidth);
+    console.log(carouselRef.current.scrollLeft);
     carouselRef.current.scrollLeft +=
       direction === "left" ? -firstImgWidth : firstImgWidth;
   };
