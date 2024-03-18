@@ -1,10 +1,13 @@
 "use client";
 import "./navbar.css";
-import Image from "next/image";
-import logo from "@/assets/logo.webp";
-import truksImage from "@/assets/gallery-image-1.webp";
 import { useState } from "react";
+//images
+import Image from "next/image";
+//icons
+import logo from "@/assets/logo.webp";
 import { TimesIcon, MenuIcon } from "@/icons";
+//menus
+import { MegamenuExample } from "./components";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -35,40 +38,7 @@ const Navbar = () => {
               About Us
             </a>
             <div className="megamenu">
-              <div className="megamenu-container">
-                <ul className="megamenu-list">
-                  <li>
-                    <a href="#">Servicio primarios</a>
-                  </li>
-                  <li>
-                    <a href="#">Certificaciones legales</a>
-                  </li>
-                  <li>
-                    <a href="#">Ayuda</a>
-                  </li>
-                  <li>
-                    <a href="#">Servicio primarios</a>
-                  </li>
-                  <li>
-                    <a href="#">Certificaciones legales</a>
-                  </li>
-                  <li>
-                    <a href="#">Ayuda</a>
-                  </li>
-                </ul>
-                <div className="megamenu-info">
-                  <div className="megamenu-title">Servicios</div>
-                  <a href="#">Ver todos los servicios.</a>
-                  <div className="megamenu-image">
-                    <Image
-                      src={truksImage}
-                      alt="imagend de camion"
-                      placeholder="blur"
-                      width={500}
-                    />
-                  </div>
-                </div>
-              </div>
+              <MegamenuExample />
             </div>
           </li>
           <li className="nav-item">
