@@ -3,9 +3,16 @@
   padding: 0;
   margin: 0;
 }
-body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 main {
   overflow: hidden;
+}
+a {
+  text-decoration: none;
+  color: #006cff;
+}
+li {
+  list-style: none;
+}
+.pointer {
+  cursor: pointer;
 }
