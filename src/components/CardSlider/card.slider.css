@@ -2,7 +2,6 @@
   height: 480px;
   overflow-y: hidden;
   overflow-x: hidden;
-  white-space: nowrap;
   scroll-behavior: smooth;
   display: flex;
   align-items: center;
