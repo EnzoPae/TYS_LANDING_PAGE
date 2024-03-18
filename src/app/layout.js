@@ -1,5 +1,6 @@
-import { Afacad } from "next/font/google";
 import "./globals.css";
+import { Afacad } from "next/font/google";
+import { Navbar, Footer } from "@/components";
 
 const afacad = Afacad({
   weight: ["400", "500", "600", "700"],
@@ -14,7 +15,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={afacad.className}>{children}</body>
+      <body className={afacad.className}>
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

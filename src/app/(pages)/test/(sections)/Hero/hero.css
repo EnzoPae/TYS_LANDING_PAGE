@@ -20,21 +20,8 @@
 .styles-image {
   width: 100%;
   height: 100%;
-  opacity: 80%;
+  opacity: 95%;
   object-fit: cover;
+  object-position: center;
   aspect-ratio: 3/2;
-}
-
-.hero-container {
-  padding: 10rem 10rem 5rem 10rem;
-}
-.hero-title {
-  display: flex;
-  align-items: end;
-}
-.hero-title h1 {
-  color: white;
-  font-size: 60px;
-  text-wrap: pretty;
-  margin-left: 1rem;
 }

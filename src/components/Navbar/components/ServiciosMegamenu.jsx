@@ -1,33 +1,35 @@
-import "./megamenu.css"
+import "./megamenu.css";
+//next js
+import Link from "next/link";
 import Image from "next/image";
+//models
+import { RoutesModel } from "@/models";
+//images
 import truksImage from "@/assets/gallery-image-1.webp";
 
-const MegamenuExample = () => {
+const ServiciosMegamenu = () => {
   return (
     <div className="megamenu-container">
       <ul className="megamenu-list">
         <li>
-          <a href="#">Servicio primarios</a>
+          <Link href="">Ejemplo de link</Link>
         </li>
         <li>
-          <a href="#">Certificaciones legales</a>
+          <Link href="">Ejemplo de link</Link>
         </li>
         <li>
-          <a href="#">Ayuda</a>
+          <Link href="">Ejemplo de link</Link>
         </li>
         <li>
-          <a href="#">Servicio primarios</a>
+          <Link href="">Ejemplo de link</Link>
         </li>
         <li>
-          <a href="#">Certificaciones legales</a>
-        </li>
-        <li>
-          <a href="#">Ayuda</a>
+          <Link href="">Ejemplo de link</Link>
         </li>
       </ul>
       <div className="megamenu-info">
         <div className="megamenu-title">Servicios</div>
-        <a href="#">Ver todos los servicios.</a>
+        <Link href={RoutesModel.SERVICIOS}>Ver todos los servicios.</Link>
         <div className="megamenu-image">
           <Image
             src={truksImage}
@@ -41,4 +43,4 @@ const MegamenuExample = () => {
   );
 };
 
-export default MegamenuExample;
+export default ServiciosMegamenu;

@@ -1,20 +1,22 @@
 "use client";
 import "./navbar.css";
 import { useState } from "react";
-//images
-import Image from "next/image";
-//icons
-import logo from "@/assets/logo.webp";
+//next js
+import Link from "next/link";
+//models
+import { RoutesModel } from "@/models";
 import { TimesIcon, MenuIcon } from "@/icons";
 //menus
-import { MegamenuExample } from "./components";
+import { ServiciosMegamenu } from "./components";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <header className="header">
       <nav className="nav">
-        <Image src={logo} alt="logo terminales y servicios" width={60} />
+        <Link href="/" className="nav-title">
+          TERMINALES Y SERVICIOS
+        </Link>
         <MenuIcon
           w={32}
           className="toggle-menu pointer"
@@ -29,27 +31,32 @@ const Navbar = () => {
             />
           </div>
           <li className="nav-item">
-            <a href="#" className="nav-link">
-              Services
-            </a>
+            <Link href={RoutesModel.NOSOTROS} className="nav-link">
+              Nosotros
+            </Link>
           </li>
           <li className="nav-item dropdown">
-            <a href="#" className="nav-link">
-              About Us
-            </a>
+            <Link href={RoutesModel.SERVICIOS} className="nav-link">
+              Servicios
+            </Link>
             <div className="megamenu">
-              <MegamenuExample />
+              <ServiciosMegamenu />
             </div>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">
-              Explorer
-            </a>
+            <Link href={RoutesModel.PROYECTOS} className="nav-link">
+              Proyectos
+            </Link>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">
-              System
-            </a>
+            <Link href="" className="nav-link">
+              Sistemas
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link href={RoutesModel.TEST} className="nav-link">
+              Test
+            </Link>
           </li>
         </ul>
       </nav>

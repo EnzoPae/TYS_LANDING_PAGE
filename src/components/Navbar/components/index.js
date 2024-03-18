@@ -1,1 +1,1 @@
-export { default as MegamenuExample } from "./MegamenuExample";
+export { default as ServiciosMegamenu } from "./ServiciosMegamenu";
