@@ -2,6 +2,8 @@
   width: 100vw;
   height: 100vh;
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 .main-screen-container {
   top: 0;
@@ -22,4 +24,21 @@
   object-fit: cover;
   object-position: center;
   aspect-ratio: 16/9;
+}
+.main-screen-arrows {
+  position: absolute;
+  top: 55%;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+.arrow-container {
+  background-color: #006cff;
+  padding: 20px 10px 15px 10px;
+  opacity: 60%;
+  transition: opacity 0.3s ease-in-out;
+  cursor: pointer;
+}
+.arrow-container:hover {
+  opacity: 100%;
 }
