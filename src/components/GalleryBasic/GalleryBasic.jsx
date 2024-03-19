@@ -1,7 +1,9 @@
 "use client";
 import "./gallery.basic.css";
 import { useState } from "react";
+//next js
 import Image from "next/image";
+//icons
 import { ArrowLeftIcon, ArrowRightIcon } from "@/icons";
 
 const GalleryBasic = ({ images }) => {

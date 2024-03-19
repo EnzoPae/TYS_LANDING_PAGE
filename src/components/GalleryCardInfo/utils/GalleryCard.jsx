@@ -1,7 +1,5 @@
 import "./utils.css";
-import Image from "next/image";
-import ArrowLeft from "@/assets/arrow-left.svg";
-import ArrowRight from "@/assets/arrow-right.svg";
+import { ArrowLeftIcon, ArrowRightIcon } from "@/icons";
 
 const GalleryCard = ({ previous, next, header, title, description }) => {
   return (
@@ -11,18 +9,8 @@ const GalleryCard = ({ previous, next, header, title, description }) => {
       <p>{description}</p>
       <a href="#">Leer más</a>
       <div className="arrows">
-        <Image
-          src={ArrowLeft}
-          alt="icono de flecha izquierda"
-          width={25}
-          onClick={previous}
-        />
-        <Image
-          src={ArrowRight}
-          alt="icono de flecha derecha"
-          width={25}
-          onClick={next}
-        />
+        <ArrowLeftIcon color={"#dedede"} onClick={previous} />
+        <ArrowRightIcon color={"#006cff"} onClick={next} />
       </div>
     </aside>
   );

@@ -55,13 +55,14 @@
   text-decoration: underline;
 }
 .arrows {
+  display: flex;
+  align-items: center;
   justify-self: flex-end;
   grid-area: arrows;
 }
-.arrows img {
+.arrows div svg {
   cursor: pointer;
-  margin-right: 10px;
 }
-.arrows img:hover {
-  opacity: 80%;
+.arrows div:first-child {
+  margin-right: 10px;
 }
