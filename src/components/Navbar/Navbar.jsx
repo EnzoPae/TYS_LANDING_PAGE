@@ -3,8 +3,12 @@ import "./navbar.css";
 import { useState } from "react";
 //next js
 import Link from "next/link";
+import Image from "next/image";
 //models
 import { RoutesModel } from "@/models";
+//images
+import logo from "@/assets/logo.webp";
+//icons
 import { TimesIcon, MenuIcon } from "@/icons";
 //menus
 import { ServiciosMegamenu } from "./components";
@@ -15,7 +19,8 @@ const Navbar = () => {
     <header className="header">
       <nav className="nav">
         <Link href="/" className="nav-title">
-          TERMINALES Y SERVICIOS
+          <Image src={logo} alt="logo" width={40} />
+          <span>TERMINALES Y SERVICIOS</span>
         </Link>
         <MenuIcon
           w={32}

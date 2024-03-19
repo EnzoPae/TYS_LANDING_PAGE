@@ -17,10 +17,15 @@
   z-index: 99;
 }
 .nav-title {
+  display: flex;
+  align-items: center;
+}
+.nav-title span {
   color: #fff;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 600;
   text-overflow: ellipsis;
+  padding-left: 10px;
 }
 .toggle-menu,
 .close-menu {
@@ -37,7 +42,7 @@
   padding: 0 1rem;
 }
 .nav-link {
-  font-size: 20px;
+  font-size: 18px;
   color: white;
   padding: 0.3rem;
   transition: background-color 0.3s ease-in-out;
@@ -104,5 +109,8 @@
   }
   .show-menu {
     left: 0;
+  }
+  .nav-title span {
+    display: none;
   }
 }
