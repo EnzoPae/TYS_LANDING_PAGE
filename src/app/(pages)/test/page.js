@@ -1,19 +1,9 @@
-import {
-  Hero,
-  Services,
-  Equipment,
-  GalleryExample,
-  GalleryExample2,
-} from "./(sections)";
+import { Title } from "./(sections)";
 
 export default function Test() {
   return (
     <main>
-      <Hero />
-      <Services />
-      <GalleryExample />
-      <GalleryExample2 />
-      <Equipment />
+      <Title />
     </main>
   );
 }
