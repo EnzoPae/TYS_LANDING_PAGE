@@ -5,6 +5,7 @@
   min-width: calc(100% / 3.5);
   background-color: #1e2f46;
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 .card-container:hover {
   opacity: 90%;

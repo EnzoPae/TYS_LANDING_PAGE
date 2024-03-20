@@ -5,7 +5,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 //models
-import { RoutesModel } from "@/models";
+import { MainRoutesModel } from "@/models";
 //images
 import logo from "@/assets/logo.webp";
 //icons
@@ -36,7 +36,7 @@ const Navbar = () => {
             />
           </div>
           <li className="nav-item">
-            <Link href={RoutesModel.NOSOTROS} className="nav-link">
+            <Link href={MainRoutesModel.NOSOTROS} className="nav-link">
               Nosotros
             </Link>
           </li>
@@ -49,7 +49,7 @@ const Navbar = () => {
             </div>
           </li>
           <li className="nav-item">
-            <Link href={RoutesModel.PROYECTOS} className="nav-link">
+            <Link href={MainRoutesModel.PROYECTOS} className="nav-link">
               Proyectos
             </Link>
           </li>
@@ -62,7 +62,7 @@ const Navbar = () => {
             </div>
           </li>
           <li className="nav-item">
-            <Link href={RoutesModel.TEST} className="nav-link">
+            <Link href={MainRoutesModel.TEST} className="nav-link">
               Test
             </Link>
           </li>

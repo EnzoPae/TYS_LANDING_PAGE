@@ -24,6 +24,7 @@ const CardSlider = ({ cards }) => {
             alt={card.alt}
             desc={card.desc}
             footerTitle={card.footerTitle}
+            href={card.href ? card.href : "#"}
           />
         ))}
       </div>

@@ -1,9 +1,13 @@
+"use client";
 import "./utils.css";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
-const SliderCards = ({ firstImgRef, src, alt, desc, footerTitle }) => {
+const SliderCards = ({ firstImgRef, src, alt, desc, footerTitle, href }) => {
+  const router = useRouter();
+
   return (
-    <article className="card-container">
+    <article className="card-container" onClick={() => router.push(href)}>
       <Image
         ref={firstImgRef}
         src={src}

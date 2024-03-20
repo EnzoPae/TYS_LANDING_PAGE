@@ -1,5 +1,9 @@
 import "./servicios.css";
+//models
+import { ServiciosRoutesModel } from "@/models";
+//custom components
 import { CardSlider } from "@/components";
+//images
 import timbues from "@/assets-official/timbues.webp";
 
 const Servicios = () => {
@@ -11,31 +15,29 @@ const Servicios = () => {
       src: timbues,
       alt: "img",
       desc: desc,
-      footerTitle: "Terminales y Servicios",
+      footerTitle: "Servicio 1",
+      href: ServiciosRoutesModel.SERVICIO_1,
     },
     {
       src: timbues,
       alt: "img",
       desc: desc,
-      footerTitle: "Terminales y Servicios",
+      footerTitle: "Servicio 2",
+      href: ServiciosRoutesModel.SERVICIO_2,
     },
     {
       src: timbues,
       alt: "img",
       desc: desc,
-      footerTitle: "Terminales y Servicios",
+      footerTitle: "Servicio 3",
+      href: ServiciosRoutesModel.SERVICIO_3,
     },
     {
       src: timbues,
       alt: "img",
       desc: desc,
-      footerTitle: "Terminales y Servicios",
-    },
-    {
-      src: timbues,
-      alt: "img",
-      desc: desc,
-      footerTitle: "Terminales y Servicios",
+      footerTitle: "Servicio 4",
+      href: ServiciosRoutesModel.SERVICIO_4,
     },
   ];
   return (
