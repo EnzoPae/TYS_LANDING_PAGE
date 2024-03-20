@@ -19,7 +19,7 @@ const Navbar = () => {
     <header className="header">
       <nav className="nav">
         <Link href="/" className="nav-title">
-          <Image src={logo} alt="logo" width={40} />
+          <Image src={logo} alt="logo" width={50} />
           <span>TERMINALES Y SERVICIOS</span>
         </Link>
         <MenuIcon
