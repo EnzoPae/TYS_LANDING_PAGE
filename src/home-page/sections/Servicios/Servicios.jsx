@@ -1,6 +1,6 @@
 import "./servicios.css";
 //models
-import { ServiciosRoutesModel } from "@/models";
+import { ServiciosRoutesModel, MainRoutesModel } from "@/models";
 //custom components
 import { CardSlider } from "@/components";
 //images
@@ -43,7 +43,11 @@ const Servicios = () => {
   return (
     <section className="global-padding-left servicios-container">
       <h2>SERVICIOS</h2>
-      <CardSlider cards={cards} />
+      <CardSlider
+        cards={cards}
+        href={MainRoutesModel.SERVICIOS}
+        linkText="Ver todos los Servicios."
+      />
     </section>
   );
 };

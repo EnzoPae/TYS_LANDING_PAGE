@@ -7,3 +7,28 @@
   align-items: center;
   justify-content: space-between;
 }
+.carousel-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding-right: 5rem;
+}
+.carousel-footer a {
+  color: white;
+  font-size: 18px;
+}
+.carousel-footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+  .carousel-footer {
+    padding-right: 2rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .carousel-footer {
+    padding-right: 1rem;
+  }
+}

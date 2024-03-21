@@ -1,9 +1,12 @@
 "use client";
 import "./card.slider.css";
 import { useRef } from "react";
+//next
+import Link from "next/link";
+//custom components
 import { SliderArrows, SliderCards } from "./utils";
 
-const CardSlider = ({ cards }) => {
+const CardSlider = ({ cards, linkText, href }) => {
   const carouselRef = useRef(null);
   const firstImgRef = useRef(null);
 
@@ -28,10 +31,13 @@ const CardSlider = ({ cards }) => {
           />
         ))}
       </div>
-      <SliderArrows
-        handleClickArrowLeft={() => handleIconClick("left")}
-        handleClickArrowRight={() => handleIconClick("right")}
-      />
+      <div className="carousel-footer">
+        <SliderArrows
+          handleClickArrowLeft={() => handleIconClick("left")}
+          handleClickArrowRight={() => handleIconClick("right")}
+        />
+        <Link href={href ? href : ""}>{linkText ? linkText : ""}</Link>
+      </div>
     </>
   );
 };
