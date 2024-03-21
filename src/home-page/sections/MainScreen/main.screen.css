@@ -1,5 +1,4 @@
 .main-screen-section {
-  width: 100vw;
   height: 100vh;
   position: relative;
   display: flex;
@@ -28,7 +27,7 @@
 .main-screen-arrows {
   position: absolute;
   top: 55%;
-  width: 95%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
