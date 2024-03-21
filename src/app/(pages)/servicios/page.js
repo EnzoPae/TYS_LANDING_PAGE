@@ -1,9 +1,9 @@
-import { Title } from "./(sections)";
+import { Hero } from "./(sections)";
 
 export default function Servicios() {
   return (
     <main>
-      <Title />
+      <Hero />
     </main>
   );
 }
