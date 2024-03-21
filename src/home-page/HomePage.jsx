@@ -4,6 +4,8 @@ const HomePage = () => {
     <main>
       <MainScreen />
       <Servicios />
+      <Servicios />
+      <Servicios />
     </main>
   );
 };
