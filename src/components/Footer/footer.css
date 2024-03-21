@@ -13,13 +13,13 @@
 .footer {
   color: white;
   background-color: #1e2f46;
-  padding: 3rem 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   gap: 0.2rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   justify-items: center;
 }
-
 .footer .title {
   font-size: 20px;
   font-weight: 600;

@@ -30,3 +30,33 @@ li {
   align-items: center;
   justify-content: center;
 }
+
+/* GLOBAL PADDINGS */
+.global-padding {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.global-padding-left {
+  padding-left: 5rem;
+  padding-right: 0;
+}
+
+@media (max-width: 1024px) {
+  .global-padding {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .global-padding-left {
+    padding-left: 2rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .global-padding {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .global-padding-left {
+    padding-left: 1rem;
+  }
+}

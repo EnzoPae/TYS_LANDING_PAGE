@@ -16,7 +16,7 @@ import { ServiciosMegamenu, SistemasMegamenu } from "./components";
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <header className="header">
+    <header className="header global-padding">
       <nav className="nav">
         <Link href="/" className="nav-title">
           <Image src={logo} alt="logo" width={50} />
