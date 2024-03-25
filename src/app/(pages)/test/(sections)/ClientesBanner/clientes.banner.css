@@ -2,14 +2,13 @@
 .hero-container {
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 5rem 0;
 }
 .hero {
   width: 60%;
   display: flex;
 }
-.hero h2 {
+.hero h3 {
   color: #006cff;
   font-size: 48px;
   border-right: 1px solid #dedede;
@@ -31,7 +30,7 @@
     width: 100%;
     flex-direction: column;
   }
-  .hero h2 {
+  .hero h3 {
     border-right: 0;
     padding-right: 0;
     margin-bottom: 1rem;

@@ -6,7 +6,7 @@ const ClientesBanner = () => {
     <section className="min-h-100 global-padding">
       <div className="hero-container">
         <div className="hero">
-          <h2>¿Por qué elegirnos?</h2>
+          <h3>¿Por qué elegirnos?</h3>
           <p>
             La calidad es el distintivo de nuestro enfoque. Desde la concepción
             de nuestras ideas hasta la entrega final, cada paso de nuestro
