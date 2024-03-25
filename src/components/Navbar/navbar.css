@@ -1,29 +1,19 @@
 /* NEW CSS */
 .header {
-  position: fixed;
+  width: 100%;
   top: 0;
   left: 0;
-  width: 100%;
-  background-color: #19283c;
   z-index: 99;
+  position: fixed;
 }
 .nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   height: 5rem;
-  margin: 0 auto;
   z-index: 99;
-}
-.nav-title {
-  display: flex;
-  align-items: center;
 }
 .nav-title span {
   color: #fff;
   font-size: 24px;
   font-weight: 600;
-  text-overflow: ellipsis;
   padding-left: 10px;
 }
 .toggle-menu,

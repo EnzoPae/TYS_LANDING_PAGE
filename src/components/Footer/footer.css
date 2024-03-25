@@ -1,18 +1,9 @@
 /* COPYRIGHT */
 .copyright {
   padding: 1.5rem;
-  background-color: #19283c;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
 }
-
 /* FOOTER */
 .footer {
-  color: white;
-  background-color: #1e2f46;
   padding-top: 3rem;
   padding-bottom: 3rem;
   gap: 0.2rem;
@@ -21,19 +12,17 @@
   justify-items: center;
 }
 .footer .title {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   padding-bottom: 10px;
 }
 .footer ul {
-  list-style: none;
-  font-size: 14px;
+  font-size: 12px;
 }
 .footer li {
   padding-bottom: 3px;
   cursor: pointer;
 }
 .footer li:hover {
-  color: #ededed;
-  scale: 1.1;
+  margin-left: 2px;
 }

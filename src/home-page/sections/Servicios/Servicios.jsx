@@ -1,4 +1,3 @@
-import "./servicios.css";
 //models
 import { ServiciosRoutesModel, MainRoutesModel } from "@/models";
 //custom components
@@ -41,7 +40,7 @@ const Servicios = () => {
     },
   ];
   return (
-    <section className="global-padding-left servicios-container">
+    <section className="global-padding-left servicios-container bg-primary-dark">
       <h2>SERVICIOS</h2>
       <CardSlider
         cards={cards}

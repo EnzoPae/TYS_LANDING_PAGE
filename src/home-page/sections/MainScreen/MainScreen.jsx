@@ -40,19 +40,17 @@ const MainScreen = () => {
   };
   return (
     <section className="main-screen-section">
-      <div className="main-screen-container">
-        <Image
-          alt="imagen de un paisaje con montañas y pinos"
-          src={selectedImage}
-          placeholder="blur"
-          className="main-screen-image"
-        />
-      </div>
+      <Image
+        alt="imagen de un paisaje con montañas y pinos"
+        src={selectedImage}
+        placeholder="blur"
+        className="main-screen-image"
+      />
       <div className="main-screen-arrows">
-        <div className="arrow-container" onClick={previous}>
+        <div className="arrow-container bg-secondary" onClick={previous}>
           <ChevronLeftIcon w={35} />
         </div>
-        <div className="arrow-container" onClick={next}>
+        <div className="arrow-container bg-secondary" onClick={next}>
           <ChevronRightIcon w={35} />
         </div>
       </div>

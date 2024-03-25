@@ -1,27 +1,3 @@
-.main-screen-section {
-  height: 100vh;
-  position: relative;
-  display: flex;
-  justify-content: center;
-}
-.main-screen-container {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -10;
-  position: absolute;
-
-  width: 100%;
-  height: 100%;
-}
-.main-screen-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  aspect-ratio: 16/9;
-}
 .main-screen-arrows {
   position: absolute;
   top: 55%;
@@ -30,11 +6,9 @@
   justify-content: space-between;
 }
 .arrow-container {
-  background-color: #006cff;
   padding: 20px 10px 15px 10px;
   opacity: 60%;
   transition: opacity 0.3s ease-in-out;
-  cursor: pointer;
 }
 .arrow-container:hover {
   opacity: 100%;

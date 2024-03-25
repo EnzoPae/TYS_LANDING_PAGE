@@ -1,10 +1,9 @@
 import "./footer.css";
-import { CopyrightIcon } from "@/icons";
 
 const Footer = () => {
   return (
     <footer>
-      <div className="footer">
+      <div className="footer bg-primary-light">
         <div>
           <div className="title">Lorem Ipsum</div>
           <ul>
@@ -41,8 +40,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="copyright">
-        <CopyrightIcon w={20} />
+      <div className="copyright bg-primary flex-center">
         <span>2024 Terminales y Servicios</span>
       </div>
     </footer>
