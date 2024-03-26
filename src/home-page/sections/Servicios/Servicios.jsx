@@ -40,7 +40,7 @@ const Servicios = () => {
     },
   ];
   return (
-    <section className="global-padding-left servicios-container bg-primary-dark">
+    <section className="global-padding-left bg-primary-dark">
       <h2>SERVICIOS</h2>
       <CardSlider
         cards={cards}
