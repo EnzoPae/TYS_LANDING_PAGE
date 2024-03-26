@@ -4,7 +4,7 @@ import Image from "next/image";
 const BoxImage = ({ src, alt, title, text }) => {
   return (
     <div className="container">
-      <div className="text-box">
+      <div className="text-box bg-primary-light">
         <div className="title">{title}</div>
         <p>{text}</p>
       </div>
