@@ -3,7 +3,7 @@ import "./megamenu.css";
 import Link from "next/link";
 import Image from "next/image";
 //images
-import truksImage from "@/assets/gallery-image-1.webp";
+import timbues from "@/assets-official/timbues.webp";
 
 const SistemasMegamenu = () => {
   const URLs = {
@@ -28,8 +28,8 @@ const SistemasMegamenu = () => {
         <div className="megamenu-title">Sistemas Terminales y Servicios.</div>
         <div className="megamenu-image">
           <Image
-            src={truksImage}
-            alt="imagend de camion"
+            src={timbues}
+            alt="imagend de timbues"
             placeholder="blur"
             width={500}
           />

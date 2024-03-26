@@ -5,7 +5,7 @@ import Image from "next/image";
 //models
 import { MainRoutesModel, ServiciosRoutesModel } from "@/models";
 //images
-import truksImage from "@/assets/gallery-image-1.webp";
+import timbues from "@/assets-official/timbues.webp";
 
 const ServiciosMegamenu = () => {
   return (
@@ -37,8 +37,8 @@ const ServiciosMegamenu = () => {
         <Link href={MainRoutesModel.SERVICIOS}>Ver todos los servicios.</Link>
         <div className="megamenu-image">
           <Image
-            src={truksImage}
-            alt="imagend de camion"
+            src={timbues}
+            alt="imagend de timbues"
             placeholder="blur"
             width={500}
           />

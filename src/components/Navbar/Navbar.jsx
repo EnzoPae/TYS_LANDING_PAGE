@@ -11,7 +11,11 @@ import logo from "@/assets/logo.webp";
 //icons
 import { TimesIcon, MenuIcon } from "@/icons";
 //menus
-import { ServiciosMegamenu, SistemasMegamenu } from "./components";
+import {
+  ServiciosMegamenu,
+  SistemasMegamenu,
+  ProyectosMegamenu,
+} from "./components";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -48,10 +52,13 @@ const Navbar = () => {
               <ServiciosMegamenu />
             </div>
           </li>
-          <li className="nav-item">
-            <Link href={MainRoutesModel.PROYECTOS} className="nav-link">
+          <li className="nav-item dropdown">
+            <Link href="" className="nav-link">
               Proyectos
             </Link>
+            <div className="megamenu">
+              <ProyectosMegamenu />
+            </div>
           </li>
           <li className="nav-item dropdown">
             <Link href="" className="nav-link">
