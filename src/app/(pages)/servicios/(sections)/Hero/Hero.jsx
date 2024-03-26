@@ -1,23 +1,12 @@
 import "./hero.css";
 //next
 import Link from "next/link";
-import Image from "next/image";
 //models
 import { ServiciosRoutesModel } from "@/models";
-//images
-import quequen from "@/assets-official/quequen.webp";
 
 const Hero = () => {
   return (
-    <section className="section-container">
-      <div className="image-container">
-        <Image
-          src={quequen}
-          alt="planta quequen"
-          width="auto"
-          placeholder="blur"
-        />
-      </div>
+    <section className="section-container min-h-100 bg-primary-dark">
       <div className="hero global-padding">
         <h1>Servicios.</h1>
         <p>

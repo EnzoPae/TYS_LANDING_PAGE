@@ -1,10 +1,9 @@
-import { Title, ClientesBanner } from "./(sections)";
+import { Title } from "./(sections)";
 
 export default function Test() {
   return (
     <main>
       <Title />
-      <ClientesBanner />
     </main>
   );
 }
