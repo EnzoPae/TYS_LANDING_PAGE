@@ -1,4 +1,3 @@
-import "./hero.css";
 //next
 import Link from "next/link";
 //models
@@ -6,13 +5,9 @@ import { ServiciosRoutesModel } from "@/models";
 
 const Hero = () => {
   return (
-    <section className="section-container min-h-100 bg-primary-dark">
-      <div className="hero global-padding">
-        <h1>Servicios.</h1>
-        <p>
-          Terminales y Servicios ofrece una amplia gama de servicios de primera
-          calidad que se adaptan a las necesidades del cliente.
-        </p>
+    <section className="min-h-100 flex align-items-center">
+      <div className="hero g-p-left g-p-right">
+        <h1 className="fs-4">Servicios.</h1>
         <ul>
           <li>
             <Link href={ServiciosRoutesModel.SERVICIO_1}>Servicio 1</Link>

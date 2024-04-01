@@ -40,8 +40,8 @@ const Servicios = () => {
     },
   ];
   return (
-    <section className="global-padding-left bg-primary-dark">
-      <h2>SERVICIOS</h2>
+    <section className="g-p-left">
+      <h2 className="fs-2 mt-2 mb-2">SERVICIOS</h2>
       <CardSlider
         cards={cards}
         href={MainRoutesModel.SERVICIOS}

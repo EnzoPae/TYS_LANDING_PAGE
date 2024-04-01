@@ -1,6 +1,6 @@
 "use client";
-import "./gallery.basic.css";
 import { useState } from "react";
+import classes from "./gallery.basic.module.css";
 //next js
 import Image from "next/image";
 //icons
@@ -32,17 +32,19 @@ const GalleryBasic = ({ images }) => {
     selectNewImage();
   };
   return (
-    <div className="gallery-basic-container">
-      <div className="gallery-basic">
+    <div className="h-100 flex justify-content-center align-items-center">
+      <div className={`${classes.galery_shadow} h-100 w-100 position-relative`}>
         <Image
           src={selectedImage}
           alt="imagen"
           width="auto"
           placeholder="blur"
-          className="gallery-basic-image"
+          className="w-100 h-100 img-styles"
         />
-        <div className="gallery-basic-arrows">
+        <div className={`${classes.arrow_left} bg-secondary pointer`}>
           <ArrowLeftIcon width={30} strokeWidth={1} onClick={previous} />
+        </div>
+        <div className={`${classes.arrow_right} bg-secondary pointer`}>
           <ArrowRightIcon width={30} strokeWidth={1} onClick={next} />
         </div>
       </div>

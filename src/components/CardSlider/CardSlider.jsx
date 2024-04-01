@@ -4,7 +4,7 @@ import { useRef } from "react";
 //next
 import Link from "next/link";
 //custom components
-import { SliderArrows, SliderCards } from "./utils";
+import { SliderArrows, SliderCards } from "./components";
 
 const CardSlider = ({ cards, linkText, href }) => {
   const carouselRef = useRef(null);

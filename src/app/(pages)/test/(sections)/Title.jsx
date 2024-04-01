@@ -1,6 +1,6 @@
 const Title = () => {
   return (
-    <div className="min-h-100 padding-section">
+    <div className="min-h-100 g-p-left flex align-items-center">
       <h1>Test</h1>
     </div>
   );

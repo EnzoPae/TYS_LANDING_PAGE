@@ -1,7 +1,6 @@
 "use client";
-import "./gallery.card.info.css";
 import { useState } from "react";
-import { GalleryCard } from "./utils";
+import { GalleryCard } from "./components";
 import Image from "next/image";
 
 const GalleryCardInfo = ({ images }) => {
@@ -31,13 +30,13 @@ const GalleryCardInfo = ({ images }) => {
   };
 
   return (
-    <div className="gallery">
+    <div className="h-100 position-relative">
       <Image
         src={selectedImage.src}
         alt="imagen"
         width="auto"
         placeholder="blur"
-        className="gallery-image"
+        className="img-styles h-100 w-100"
       />
       <GalleryCard
         next={next}

@@ -1,0 +1,6 @@
+.arrows {
+  padding: 15px 10px;
+}
+.arrows:hover {
+  opacity: 90%;
+}

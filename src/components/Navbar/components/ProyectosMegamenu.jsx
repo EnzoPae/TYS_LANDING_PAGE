@@ -1,4 +1,4 @@
-import "./megamenu.css";
+import classes from "./megamenu.module.css";
 //next js
 import Link from "next/link";
 import Image from "next/image";
@@ -9,8 +9,8 @@ import quequen from "@/assets-official/quequen.webp";
 
 const ProyectosMegamenu = () => {
   return (
-    <div className="megamenu-container">
-      <ul className="megamenu-list">
+    <div className={classes.container}>
+      <ul className={classes.list}>
         <li>
           <Link href={ProyectosRoutesModel.PROYECTO_1} replace={true}>
             Proyecto 1
@@ -32,10 +32,10 @@ const ProyectosMegamenu = () => {
           </Link>
         </li>
       </ul>
-      <div className="megamenu-info">
-        <div className="megamenu-title">Proyectos</div>
+      <div className={classes.info}>
+        <div className={classes.title}>Proyectos</div>
         <Link href={MainRoutesModel.PROYECTOS}>Ver todos los proyectos.</Link>
-        <div className="megamenu-image">
+        <div className={classes.image}>
           <Image
             src={quequen}
             alt="imagend de quequen"

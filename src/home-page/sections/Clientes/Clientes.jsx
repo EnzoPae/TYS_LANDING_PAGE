@@ -1,13 +1,15 @@
-import "./clientes.css";
+import classes from "./clientes.module.css";
 import { ClientesLogos } from "./Logos";
 
 const Clientes = () => {
   return (
-    <section className="clientes-section">
-      <div className="clientes-hero-container global-padding">
-        <div className="clientes-hero">
-          <h3>¿Por qué elegirnos?</h3>
-          <p>
+    <section
+      style={{ backgroundColor: "#fff", paddingTop: 100, paddingBottom: 100 }}
+    >
+      <div className="g-p-left g-p-right flex justify-content-center">
+        <div className={`${classes.hero} flex`}>
+          <h3 className="color-secondary fs-3">¿Por qué elegirnos?</h3>
+          <p className="color-gray-dark">
             La calidad es el distintivo de nuestro enfoque. Desde la concepción
             de nuestras ideas hasta la entrega final, cada paso de nuestro
             proceso se realiza con una atención meticulosa a los detalles.
@@ -17,12 +19,10 @@ const Clientes = () => {
           </p>
         </div>
       </div>
-      <div className="clientes-banner-container">
-        <div className="clientes-banner">
-          <div className="clientes-logos">
-            <ClientesLogos />
-            <ClientesLogos />
-          </div>
+      <div className="w-100 overflow-hidden">
+        <div className={`${classes.logos} flex`}>
+          <ClientesLogos />
+          <ClientesLogos />
         </div>
       </div>
     </section>

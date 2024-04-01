@@ -1,0 +1,36 @@
+/* BOX */
+.box {
+  width: 60%;
+  height: 60vh;
+  padding-top: 40px;
+}
+.box p {
+  width: 55%;
+}
+
+/* IMAGE */
+.image {
+  width: 60%;
+  height: 60vh;
+  top: 40px;
+}
+
+@media (max-width: 1024px) {
+  .box p {
+    width: 65%;
+  }
+  .image {
+    width: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+  .box {
+    width: 100%;
+  }
+  .image {
+    width: 100%;
+    height: 40vh;
+    position: static;
+  }
+}

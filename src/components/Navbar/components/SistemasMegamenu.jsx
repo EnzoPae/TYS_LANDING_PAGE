@@ -1,4 +1,4 @@
-import "./megamenu.css";
+import classes from "./megamenu.module.css";
 //next js
 import Link from "next/link";
 import Image from "next/image";
@@ -11,8 +11,8 @@ const SistemasMegamenu = () => {
     CLIENTES: "http://logistica.terminalesyservicios.com.ar",
   };
   return (
-    <div className="megamenu-container">
-      <ul className="megamenu-list">
+    <div className={classes.container}>
+      <ul className={classes.list}>
         <li>
           <Link href={URLs.CLIENTES} target="_blank">
             Clientes
@@ -24,9 +24,9 @@ const SistemasMegamenu = () => {
           </Link>
         </li>
       </ul>
-      <div className="megamenu-info">
-        <div className="megamenu-title">Sistemas Terminales y Servicios.</div>
-        <div className="megamenu-image">
+      <div className={classes.info}>
+        <div className={classes.title}>Sistemas Terminales y Servicios.</div>
+        <div className={classes.image}>
           <Image
             src={timbues}
             alt="imagend de timbues"

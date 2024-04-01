@@ -20,11 +20,13 @@ import {
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <header className="header global-padding bg-primary">
-      <nav className="nav flex-between">
-        <Link href="/" className="nav-title flex-center">
+    <header className="header w-100 g-p-left g-p-right bg-primary">
+      <nav className="nav flex justify-content-between">
+        <Link href="/" className="nav-title flex align-items-center">
           <Image src={logo} alt="logo" width={50} />
-          <span>TERMINALES Y SERVICIOS</span>
+          <span className="bg-primary fs-1-5 fw-semibold">
+            TERMINALES Y SERVICIOS
+          </span>
         </Link>
         <MenuIcon
           w={32}
@@ -48,7 +50,7 @@ const Navbar = () => {
             <Link href="" className="nav-link">
               Servicios
             </Link>
-            <div className="megamenu">
+            <div className="megamenu bg-primary">
               <ServiciosMegamenu />
             </div>
           </li>
@@ -56,7 +58,7 @@ const Navbar = () => {
             <Link href="" className="nav-link">
               Proyectos
             </Link>
-            <div className="megamenu">
+            <div className="megamenu bg-primary">
               <ProyectosMegamenu />
             </div>
           </li>
@@ -64,7 +66,7 @@ const Navbar = () => {
             <Link href="" className="nav-link">
               Sistemas
             </Link>
-            <div className="megamenu">
+            <div className="megamenu bg-primary">
               <SistemasMegamenu />
             </div>
           </li>

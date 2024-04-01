@@ -1,5 +1,5 @@
 "use client";
-import "./main.screen.css";
+import classes from "./main.screen.module.css";
 import { useState } from "react";
 //next js
 import Image from "next/image";
@@ -39,18 +39,23 @@ const MainScreen = () => {
     selectNewImage();
   };
   return (
-    <section className="main-screen-section">
+    <section className="h-100-vh flex justify-content-center align-items-center position-relative">
       <Image
-        alt="imagen de un paisaje con montañas y pinos"
+        alt="img"
         src={selectedImage}
         placeholder="blur"
-        className="main-screen-image"
+        className="img-styles w-100 h-100"
       />
-      <div className="main-screen-arrows">
-        <div className="arrow-container bg-secondary" onClick={previous}>
+      <div
+        className={`${classes.arrows_wrapper} w-100 flex justify-content-between position-absolute`}
+      >
+        <div
+          className={`${classes.arrow} bg-secondary pointer`}
+          onClick={previous}
+        >
           <ChevronLeftIcon w={35} />
         </div>
-        <div className="arrow-container bg-secondary" onClick={next}>
+        <div className={`${classes.arrow} bg-secondary pointer`} onClick={next}>
           <ChevronRightIcon w={35} />
         </div>
       </div>

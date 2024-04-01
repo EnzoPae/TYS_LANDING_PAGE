@@ -1,4 +1,4 @@
-import "./megamenu.css";
+import classes from "./megamenu.module.css";
 //next js
 import Link from "next/link";
 import Image from "next/image";
@@ -9,8 +9,8 @@ import timbues from "@/assets-official/timbues.webp";
 
 const ServiciosMegamenu = () => {
   return (
-    <div className="megamenu-container">
-      <ul className="megamenu-list">
+    <div className={classes.container}>
+      <ul className={classes.list}>
         <li>
           <Link href={ServiciosRoutesModel.SERVICIO_1} replace={true}>
             Servicio 1
@@ -32,10 +32,10 @@ const ServiciosMegamenu = () => {
           </Link>
         </li>
       </ul>
-      <div className="megamenu-info">
-        <div className="megamenu-title">Servicios</div>
+      <div className={classes.info}>
+        <div className={classes.title}>Servicios</div>
         <Link href={MainRoutesModel.SERVICIOS}>Ver todos los servicios.</Link>
-        <div className="megamenu-image">
+        <div className={classes.image}>
           <Image
             src={timbues}
             alt="imagend de timbues"

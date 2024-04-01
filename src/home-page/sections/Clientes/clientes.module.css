@@ -1,0 +1,51 @@
+/* HERO */
+.hero {
+  width: 65%;
+  padding-bottom: 4rem;
+}
+.hero h3 {
+  border-right: 1px solid #dedede;
+  padding-right: 2rem;
+}
+.hero p {
+  padding-left: 2rem;
+}
+@media (max-width: 1024px) {
+  .hero {
+    width: 80%;
+  }
+}
+@media (max-width: 800px) {
+  .hero {
+    width: 100%;
+    flex-direction: column;
+  }
+  .hero h3 {
+    border-right: 0;
+    padding-right: 0;
+    margin-bottom: 1rem;
+  }
+  .hero p {
+    padding-left: 0;
+  }
+}
+/* BANNER */
+.logos {
+  animation: swipe 35s linear infinite;
+}
+.logos img {
+  width: 150px;
+  height: 150px;
+  margin: 0 30px;
+  object-fit: cover;
+  object-position: center;
+}
+
+@keyframes swipe {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

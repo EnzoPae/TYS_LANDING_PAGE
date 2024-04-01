@@ -1,0 +1,11 @@
+.arrows_wrapper {
+  top: 55%;
+}
+.arrow {
+  padding: 20px 10px;
+  opacity: 60%;
+  transition: opacity 0.3s ease-in-out;
+}
+.arrow:hover {
+  opacity: 100%;
+}

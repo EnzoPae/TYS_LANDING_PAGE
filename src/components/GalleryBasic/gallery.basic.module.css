@@ -1,0 +1,18 @@
+.gallery_shadow {
+  box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.1);
+}
+.arrow_right,
+.arrow_left {
+  top: 50%;
+  padding: 10px;
+  position: absolute;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+.arrow_left {
+  left: -10px;
+}
+.arrow_right {
+  right: -10px;
+}

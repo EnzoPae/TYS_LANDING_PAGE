@@ -1,6 +1,5 @@
 /* NEW CSS */
 .header {
-  width: 100%;
   top: 0;
   left: 0;
   z-index: 99;
@@ -11,9 +10,6 @@
   z-index: 99;
 }
 .nav-title span {
-  color: #fff;
-  font-size: 24px;
-  font-weight: 600;
   padding-left: 10px;
 }
 .toggle-menu,
@@ -48,7 +44,6 @@
   top: 5rem;
   padding: 1rem;
   position: absolute;
-  background-color: #19283c;
   color: white;
   overflow: hidden;
   opacity: 0;

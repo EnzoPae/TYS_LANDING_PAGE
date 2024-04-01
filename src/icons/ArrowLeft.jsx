@@ -1,5 +1,5 @@
 const ArrowLeftIcon = ({ w, color, strokeWidth, ...props }) => (
-  <div>
+  <div className="flex align-items-center">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       fill="none"

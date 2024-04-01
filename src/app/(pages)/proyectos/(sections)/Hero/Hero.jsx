@@ -1,4 +1,3 @@
-import "./hero.css";
 //next
 import Link from "next/link";
 //models
@@ -6,13 +5,9 @@ import { ProyectosRoutesModel } from "@/models";
 
 const Hero = () => {
   return (
-    <section className="section-container min-h-100 bg-primary-dark">
-      <div className="hero global-padding">
-        <h1>Proyectos.</h1>
-        <p>
-          Terminales y Servicios cuenta con una amplia experiencia realizando
-          una importante variedad de proyectos.
-        </p>
+    <section className="min-h-100 flex align-items-center">
+      <div className="hero g-p-left g-p-right">
+        <h1 className="fs-4">Proyectos.</h1>
         <ul>
           <li>
             <Link href={ProyectosRoutesModel.PROYECTO_1}>Proyecto 1</Link>

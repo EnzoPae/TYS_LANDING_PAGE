@@ -1,0 +1,46 @@
+.card {
+  padding: 1rem;
+  width: 30%;
+  margin: 0 32px;
+  border-radius: 5px;
+  background-color: white;
+
+  bottom: 32px;
+
+  gap: 5px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "header header" "title title" "description description" "link arrows";
+}
+.header {
+  grid-area: header;
+}
+.title {
+  grid-area: title;
+}
+.description {
+  grid-area: description;
+}
+.link {
+  grid-area: link;
+}
+/* ARROWS */
+.arrows {
+  grid-area: arrows;
+  justify-self: flex-end;
+}
+.arrows div:first-child {
+  margin-right: 10px;
+}
+/* MEDIA QUERYS */
+@media (max-width: 1024px) {
+  .card {
+    width: 50%;
+  }
+}
+@media (max-width: 800px) {
+  .card {
+    width: auto;
+  }
+}
