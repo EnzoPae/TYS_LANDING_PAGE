@@ -161,6 +161,9 @@ li {
 .pointer {
   cursor: pointer;
 }
+.z-index-positive {
+  z-index: 10;
+}
 @media (max-width: 1024px) {
   /* --paddings */
   .g-p-left {

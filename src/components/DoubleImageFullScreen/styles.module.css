@@ -1,0 +1,20 @@
+.front_image {
+    width: 60%;
+    height: 60%;
+  }
+  .subtitle {
+    width: 80%;
+  }
+  @media (max-width: 1024px) {
+    .front_image {
+      width: 80%;
+    }
+  }
+  @media (max-width: 800px) {
+    .front_image {
+      display: none;
+    }
+    .subtitle {
+      width: 100%;
+    }
+  }

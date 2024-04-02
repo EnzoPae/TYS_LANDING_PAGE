@@ -1,7 +1,6 @@
 .carousel {
   height: 480px;
-  overflow-y: hidden;
-  overflow-x: hidden;
+  overflow: hidden;
   scroll-behavior: smooth;
   display: flex;
   align-items: center;

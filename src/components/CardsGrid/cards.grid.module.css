@@ -1,0 +1,20 @@
+.grid_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 32px;
+}
+.card {
+  height: 400px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+.card:hover {
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+  scale: 1.05;
+}
+.card img {
+  height: 50%;
+}
+.text_box {
+  padding: 16px;
+}
