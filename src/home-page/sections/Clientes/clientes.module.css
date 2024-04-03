@@ -1,32 +1,22 @@
-/* HERO */
-.hero {
-  width: 65%;
-  padding-bottom: 4rem;
+.text_box {
+  display: flex;
+  gap: 16px;
+  margin-top: 64px;
+  text-align: center;
 }
-.hero h3 {
-  border-right: 1px solid #dedede;
-  padding-right: 2rem;
+.divider {
+  width: 1px;
+  background-color: #dedede;
 }
-.hero p {
-  padding-left: 2rem;
-}
-@media (max-width: 1024px) {
-  .hero {
-    width: 80%;
-  }
-}
+
 @media (max-width: 800px) {
-  .hero {
-    width: 100%;
+  .text_box {
     flex-direction: column;
+    align-items: center;
   }
-  .hero h3 {
-    border-right: 0;
-    padding-right: 0;
-    margin-bottom: 1rem;
-  }
-  .hero p {
-    padding-left: 0;
+  .divider {
+    height: 1px;
+    width: 70%;
   }
 }
 /* BANNER */
