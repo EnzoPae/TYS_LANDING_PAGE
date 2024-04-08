@@ -20,6 +20,9 @@
   --margin-sm: 16px;
   --margin-md: 32px;
 }
+html {
+  scroll-behavior: smooth !important;
+}
 a {
   text-decoration: none;
   color: var(--secondary-color);

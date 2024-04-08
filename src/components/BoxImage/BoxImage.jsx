@@ -1,6 +1,10 @@
 import Image from "next/image";
 //css module
 import classes from "./box.image.module.css";
+//models
+import { MainRoutesModel } from "@/models";
+//components
+import { CustomLinkButton } from "../Buttons";
 
 const BoxImage = ({ src, alt, title, text }) => {
   return (
@@ -10,6 +14,9 @@ const BoxImage = ({ src, alt, title, text }) => {
       >
         <div className="fs-2 fw-bold mb-2">{title}</div>
         <p className="fs-1">{text}</p>
+        <CustomLinkButton href={MainRoutesModel.NOSOTROS} className="mt-2">
+          Saber Más
+        </CustomLinkButton>
       </div>
       <div
         className={`${classes.image} position-absolute right-0 overflow-hidden`}

@@ -15,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={afacad.className}>
+      <body className={`${afacad.className} antialiased`}>
         <Navbar />
         {children}
         <Footer />
