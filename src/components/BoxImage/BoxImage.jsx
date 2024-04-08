@@ -14,7 +14,7 @@ const BoxImage = ({ src, alt, title, text }) => {
       >
         <div className="fs-2 fw-bold mb-2">{title}</div>
         <p className="fs-1">{text}</p>
-        <CustomLinkButton href={MainRoutesModel.NOSOTROS} className="mt-2">
+        <CustomLinkButton href={MainRoutesModel.NOSOTROS} className="mt-2 mb-2">
           Saber Más
         </CustomLinkButton>
       </div>
