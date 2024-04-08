@@ -1,0 +1,21 @@
+.grid_box {
+  padding-bottom: 62px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 16px;
+}
+.grid_item {
+  color: white;
+  background-color: hsla(215, 100%, 50%, 1);
+  border: 1px solid hsla(215, 100%, 50%, 1);
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+.grid_item:hover {
+  background: none;
+  border: 1px solid white;
+  padding-right: 32px;
+}

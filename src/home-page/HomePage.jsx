@@ -4,6 +4,7 @@ import {
   Nosotros,
   Clientes,
   Proyectos,
+  PillarPage,
 } from "./sections";
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
       <Nosotros />
       <Clientes />
       <Proyectos />
+      <PillarPage />
     </main>
   );
 };
