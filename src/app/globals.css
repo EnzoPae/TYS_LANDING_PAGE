@@ -83,16 +83,6 @@ li {
 .align-items-center {
   align-items: center;
 }
-.flex-between {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 /* --positions */
 .position-relative {
   position: relative;
@@ -129,6 +119,9 @@ li {
 }
 .fw-semibold {
   font-weight: 600;
+}
+.fw-light {
+  font-weight: 300;
 }
 .fs-0-8 {
   font-size: 0.8rem;
