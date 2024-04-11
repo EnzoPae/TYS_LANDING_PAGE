@@ -21,7 +21,7 @@ const Footer = () => {
   ];
   return (
     <footer>
-      <div className={`${classes.footer} bg-primary-light`}>
+      <div className={`${classes.footer} bg-gamma`}>
         {list.map((l, i) => (
           <div key={i}>
             <div className="mb-1 fw-semibold">{l.title}</div>
@@ -35,7 +35,7 @@ const Footer = () => {
           </div>
         ))}
       </div>
-      <div className="bg-primary flex justify-content-center">
+      <div className="bg-beta flex justify-content-center">
         <span className="mt-1 mb-1">2024 Terminales y Servicios</span>
       </div>
     </footer>

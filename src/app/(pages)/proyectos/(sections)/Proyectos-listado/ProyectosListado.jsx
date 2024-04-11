@@ -32,7 +32,7 @@ const ProyectosListado = () => {
     },
   ];
   return (
-    <section className="g-p-left g-p-right mb-2">
+    <section className="gpl gpr mb-2">
       <h3 className="fs-4 mt-2">Proyectos</h3>
       <p className="fs-1-5">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

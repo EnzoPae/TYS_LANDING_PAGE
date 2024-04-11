@@ -36,7 +36,7 @@ export default function Servicio2() {
     <main>
       <section
         id="main-section"
-        className="h-100-vh bg-primary flex justify-content-between align-items-center"
+        className="h-100-vh bg-gamma flex justify-content-between align-items-center"
       >
         <Image
           src={quequen}

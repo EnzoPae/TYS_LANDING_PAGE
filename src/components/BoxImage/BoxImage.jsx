@@ -8,10 +8,8 @@ import { CustomLinkButton } from "../Buttons";
 
 const BoxImage = ({ src, alt, title, text }) => {
   return (
-    <div className="w-100 h-100 position-relative">
-      <div
-        className={`${classes.box} overflow-hidden g-p-left bg-primary-light`}
-      >
+    <div className="w-100 h-100 p-relative">
+      <div className={`${classes.box} o-hidden gpl bg-gamma`}>
         <div className="fs-2 fw-bold mb-2">{title}</div>
         <p className="fs-1">{text}</p>
         <CustomLinkButton href={MainRoutesModel.NOSOTROS} className="mt-2 mb-2">
@@ -19,7 +17,7 @@ const BoxImage = ({ src, alt, title, text }) => {
         </CustomLinkButton>
       </div>
       <div
-        className={`${classes.image} position-absolute right-0 overflow-hidden`}
+        className={`${classes.image} p-absolute right-0 o-hidden`}
       >
         <Image
           src={src}

@@ -20,11 +20,11 @@ import {
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <header className="header w-100 g-p-left g-p-right bg-primary">
+    <header className="header w-100 gpl gpr bg-beta">
       <nav className="nav flex justify-content-between">
         <Link href="/" className="nav-title flex align-items-center">
           <Image src={logo} alt="logo" width={50} />
-          <span className="bg-primary fs-1-5 fw-semibold">
+          <span className="bg-beta fs-1-5 fw-semibold">
             TERMINALES Y SERVICIOS
           </span>
         </Link>
@@ -50,7 +50,7 @@ const Navbar = () => {
             <Link href="" className="nav-link">
               Servicios
             </Link>
-            <div className="megamenu bg-primary">
+            <div className="megamenu bg-beta">
               <ServiciosMegamenu />
             </div>
           </li>
@@ -58,7 +58,7 @@ const Navbar = () => {
             <Link href="" className="nav-link">
               Proyectos
             </Link>
-            <div className="megamenu bg-primary">
+            <div className="megamenu bg-beta">
               <ProyectosMegamenu />
             </div>
           </li>
@@ -66,7 +66,7 @@ const Navbar = () => {
             <Link href="" className="nav-link">
               Sistemas
             </Link>
-            <div className="megamenu bg-primary">
+            <div className="megamenu bg-beta">
               <SistemasMegamenu />
             </div>
           </li>

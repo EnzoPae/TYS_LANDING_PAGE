@@ -39,7 +39,7 @@ const MainScreen = () => {
     selectNewImage();
   };
   return (
-    <section className="h-100-vh flex justify-content-center align-items-center position-relative">
+    <section className="h-100-vh flex justify-content-center align-items-center p-relative">
       <Image
         alt="img"
         src={selectedImage}
@@ -47,15 +47,15 @@ const MainScreen = () => {
         className="img-styles w-100 h-100"
       />
       <div
-        className={`${classes.arrows_wrapper} w-100 flex justify-content-between position-absolute`}
+        className={`${classes.arrows_wrapper} w-100 flex justify-content-between p-absolute`}
       >
         <div
-          className={`${classes.arrow} bg-secondary pointer`}
+          className={`${classes.arrow} bg-primary pointer`}
           onClick={previous}
         >
           <ChevronLeftIcon w={35} />
         </div>
-        <div className={`${classes.arrow} bg-secondary pointer`} onClick={next}>
+        <div className={`${classes.arrow} bg-primary pointer`} onClick={next}>
           <ChevronRightIcon w={35} />
         </div>
       </div>

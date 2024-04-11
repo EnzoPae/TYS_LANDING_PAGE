@@ -8,7 +8,7 @@ const SliderCards = ({ firstImgRef, src, alt, desc, footerTitle, href }) => {
 
   return (
     <article
-      className={`${classes.container} bg-primary-light pointer`}
+      className={`${classes.container} bg-gamma pointer`}
       onClick={() => router.push(href)}
     >
       <Image
@@ -19,9 +19,9 @@ const SliderCards = ({ firstImgRef, src, alt, desc, footerTitle, href }) => {
         width="auto"
         className="img-styles"
       />
-      <div className={`${classes.info} position-relative overflow-hidden`}>
+      <div className={`${classes.info} p-relative o-hidden`}>
         <p className="fs-1">{desc}</p>
-        <footer className="fs-1-2 position-absolute">{footerTitle}</footer>
+        <footer className="fs-1-2 p-absolute">{footerTitle}</footer>
       </div>
     </article>
   );

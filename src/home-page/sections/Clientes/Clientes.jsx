@@ -8,19 +8,16 @@ const Clientes = () => {
     <section
       style={{ backgroundColor: "#fff", paddingTop: 100, paddingBottom: 100 }}
     >
-      <h3
-        className="color-secondary g-p-left g-p-right fs-3 mb-2"
-        style={{ textAlign: "center" }}
-      >
+      <h3 className="c-primary gpl gpr fs-3 mb-2 text-align-center">
         ¿Quienes nos eligen?
       </h3>
-      <div className="w-100 overflow-hidden mt-2">
+      <div className="w-100 o-hidden mt-2">
         <div className={`${classes.logos} flex`}>
           <ClientesLogos />
           <ClientesLogos />
         </div>
       </div>
-      <div className={`${classes.text_box} color-gray-dark g-p-left g-p-right`}>
+      <div className={`${classes.text_box} c-gray gpl gpr`}>
         <p>{lorem}</p>
         <div className={classes.divider}></div>
         <p>{lorem}</p>

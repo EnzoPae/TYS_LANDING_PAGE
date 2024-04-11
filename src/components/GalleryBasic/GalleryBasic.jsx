@@ -33,7 +33,7 @@ const GalleryBasic = ({ images }) => {
   };
   return (
     <div className="h-100 flex justify-content-center align-items-center">
-      <div className={`${classes.galery_shadow} h-100 w-100 position-relative`}>
+      <div className={`${classes.galery_shadow} h-100 w-100 p-relative`}>
         <Image
           src={selectedImage}
           alt="imagen"
@@ -41,10 +41,10 @@ const GalleryBasic = ({ images }) => {
           placeholder="blur"
           className="w-100 h-100 img-styles"
         />
-        <div className={`${classes.arrow_left} bg-secondary pointer`}>
+        <div className={`${classes.arrow_left} bg-primary pointer`}>
           <ArrowLeftIcon width={30} strokeWidth={1} onClick={previous} />
         </div>
-        <div className={`${classes.arrow_right} bg-secondary pointer`}>
+        <div className={`${classes.arrow_right} bg-primary pointer`}>
           <ArrowRightIcon width={30} strokeWidth={1} onClick={next} />
         </div>
       </div>

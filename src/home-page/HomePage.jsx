@@ -8,7 +8,7 @@ import {
 } from "./sections";
 const HomePage = () => {
   return (
-    <main className="bg-primary-dark">
+    <main className="bg-alfa">
       <MainScreen />
       <Servicios />
       <Nosotros />

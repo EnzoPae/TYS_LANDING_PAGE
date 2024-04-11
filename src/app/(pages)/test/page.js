@@ -1,4 +1,3 @@
-import { Title } from "./(sections)";
 import classes from "./service.module.css";
 //next js
 import Image from "next/image";

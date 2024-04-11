@@ -40,7 +40,7 @@ const Servicios = () => {
     },
   ];
   return (
-    <section className="g-p-left">
+    <section className="gpl">
       <h2 className="fs-2 mt-2 mb-2">SERVICIOS</h2>
       <CardSlider
         cards={cards}

@@ -30,7 +30,7 @@ const GalleryCardInfo = ({ images }) => {
   };
 
   return (
-    <div className="h-100 position-relative">
+    <div className="h-100 p-relative">
       <Image
         src={selectedImage.src}
         alt="imagen"

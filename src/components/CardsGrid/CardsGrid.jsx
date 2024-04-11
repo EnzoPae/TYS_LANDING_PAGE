@@ -10,7 +10,7 @@ const CardsGrid = ({ items }) => {
       {items.map((item, i) => (
         <article
           key={i}
-          className={`${classes.card} pointer overflow-hidden`}
+          className={`${classes.card} pointer o-hidden`}
           onClick={() => router.push(item.href)}
         >
           <Image
@@ -20,10 +20,8 @@ const CardsGrid = ({ items }) => {
             className="img-styles w-100"
           />
           <div className={classes.text_box}>
-            <header className="color-secondary fs-1-2 fw-bold">
-              {item.title}
-            </header>
-            <p className="color-gray-dark">{item.description}</p>
+            <header className="c-primary fs-1-2 fw-bold">{item.title}</header>
+            <p className="c-gray">{item.description}</p>
           </div>
         </article>
       ))}

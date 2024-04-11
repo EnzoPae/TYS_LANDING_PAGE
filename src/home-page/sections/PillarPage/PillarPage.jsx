@@ -21,7 +21,7 @@ const PillarPage = () => {
     { label: "Algo Más", href: "#" },
   ];
   return (
-    <section className="g-p-left g-p-right">
+    <section className="gpl gpr">
       <h6 className="fs-2 fw-light mb-1">Accesos Rápidos</h6>
       <div className={`${classes.grid_box}`}>
         {items.map((item, i) => (
