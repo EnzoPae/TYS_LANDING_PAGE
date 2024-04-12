@@ -1,0 +1,31 @@
+.banner,
+.banner_invert {
+  display: flex;
+  justify-content: space-between;
+}
+.banner_invert {
+  flex-direction: row-reverse;
+}
+.box_image {
+  width: 50%;
+}
+.box_text {
+  width: 50%;
+
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 800px) {
+  .banner {
+    flex-direction: column;
+  }
+  .banner_invert {
+    flex-direction: column;
+  }
+  .box_text {
+    width: 100%;
+  }
+  .box_image {
+    width: 100%;
+  }
+}
