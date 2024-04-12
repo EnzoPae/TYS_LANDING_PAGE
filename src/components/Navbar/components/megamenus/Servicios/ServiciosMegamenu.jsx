@@ -1,4 +1,4 @@
-import classes from "./megamenu.module.css";
+import classes from "../megamenu.module.css";
 //next js
 import Link from "next/link";
 import Image from "next/image";

@@ -1,6 +1,6 @@
 "use client";
-import "./navbar.css";
 import { useState } from "react";
+import classes from "./navbar.module.css";
 //next js
 import Link from "next/link";
 import Image from "next/image";
@@ -20,58 +20,58 @@ import {
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <header className="header w-100 gpl gpr bg-beta">
-      <nav className="nav flex justify-content-between">
-        <Link href="/" className="nav-title flex align-items-center">
+    <header className={`${classes.header} w-100 gpl gpr bg-beta`}>
+      <nav className={`${classes.nav} flex justify-content-between`}>
+        <Link href="/" className="flex align-items-center">
           <Image src={logo} alt="logo" width={50} />
-          <span className="bg-beta fs-1-5 fw-semibold">
-            TERMINALES Y SERVICIOS
+          <span className={`${classes.nav_title} bg-beta fs-2 fw-semibold`}>
+            Terminales y Servicios
           </span>
         </Link>
         <MenuIcon
           w={32}
-          className="toggle-menu pointer"
+          className={`${classes.toggle_menu} pointer`}
           onClick={() => setShowMenu(!showMenu)}
         />
-        <ul className={`nav-list ${showMenu && "show-menu"}`}>
-          <div className="close-menu">
+        <ul className={`${classes.nav_list} ${showMenu && classes.show_menu}`}>
+          <div className={classes.close_menu}>
             <TimesIcon
               w={32}
               className="pointer"
               onClick={() => setShowMenu(false)}
             />
           </div>
-          <li className="nav-item">
-            <Link href={MainRoutesModel.NOSOTROS} className="nav-link">
+          <li className={classes.nav_item}>
+            <Link href={MainRoutesModel.NOSOTROS} className={classes.nav_link}>
               Nosotros
             </Link>
           </li>
-          <li className="nav-item dropdown">
-            <Link href="" className="nav-link">
+          <li className={`${classes.nav_item} ${classes.dropdown}`}>
+            <Link href="" className={classes.nav_link}>
               Servicios
             </Link>
-            <div className="megamenu bg-beta">
+            <div className={`${classes.megamenu} bg-primary`}>
               <ServiciosMegamenu />
             </div>
           </li>
-          <li className="nav-item dropdown">
-            <Link href="" className="nav-link">
+          <li className={`${classes.nav_item} ${classes.dropdown}`}>
+            <Link href="" className={classes.nav_link}>
               Proyectos
             </Link>
-            <div className="megamenu bg-beta">
+            <div className={`${classes.megamenu} bg-primary`}>
               <ProyectosMegamenu />
             </div>
           </li>
-          <li className="nav-item dropdown">
-            <Link href="" className="nav-link">
+          <li className={`${classes.nav_item} ${classes.dropdown}`}>
+            <Link href="" className={classes.nav_link}>
               Sistemas
             </Link>
-            <div className="megamenu bg-beta">
+            <div className={`${classes.megamenu} bg-primary`}>
               <SistemasMegamenu />
             </div>
           </li>
-          <li className="nav-item">
-            <Link href={MainRoutesModel.TEST} className="nav-link">
+          <li className={classes.nav_item}>
+            <Link href={MainRoutesModel.TEST} className={classes.nav_link}>
               Test
             </Link>
           </li>

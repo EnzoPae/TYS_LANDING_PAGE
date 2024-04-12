@@ -6,53 +6,52 @@
   position: fixed;
 }
 .nav {
-  height: 5rem;
+  height: 80px;
   z-index: 99;
 }
-.nav-title span {
+.nav_title {
   padding-left: 10px;
 }
-.toggle-menu,
-.close-menu {
+.toggle_menu,
+.close_menu {
   display: none;
 }
-.nav-list {
+.nav_list {
   display: flex;
   height: 100%;
 }
-.nav-list li:last-child {
+.nav_list li:last-child {
   padding-right: 0;
 }
-.nav-item {
+.nav_item {
   height: 100%;
   display: flex;
   align-items: center;
   padding: 0 1rem;
 }
-.nav-link {
+.nav_link {
   font-size: 18px;
-  color: white;
-  padding: 0.3rem;
+  padding: 8px;
   transition: background-color 0.3s ease-in-out;
+  z-index: 10;
+  border-radius: 20px;
 }
-.nav-link:hover {
-  background-color: #006cff;
+.nav_link:hover {
+  background-color: hsla(215, 100%, 50%, 1);
+}
+.dropdown:hover .nav_link {
+  background-color: hsla(214, 40%, 20%, 1);
 }
 .megamenu {
-  width: 60%;
   right: 0;
-  top: 5rem;
-  padding: 1rem;
+  top: 0;
   position: absolute;
+  width: 60%;
+  padding: 80px 16px 16px 16px;
   color: white;
-  overflow: hidden;
-  opacity: 0;
-  visibility: hidden;
+  display: none;
 }
 .dropdown:hover .megamenu {
-  visibility: visible;
-  transition: all 0.3s ease;
-  opacity: 1;
   display: block;
 }
 
@@ -64,7 +63,7 @@
     padding: 0;
     display: none;
   }
-  .nav-list {
+  .nav_list {
     position: absolute;
     height: 100vh;
     width: 100%;
@@ -78,26 +77,26 @@
     display: block;
     transition: 0.3s;
   }
-  .nav-item {
+  .nav_item {
     height: auto;
     display: block;
     margin: 1rem;
   }
-  .toggle-menu,
-  .close-menu {
+  .toggle_menu,
+  .close_menu {
     display: block;
   }
-  .close-menu {
+  .close_menu {
     height: 5rem;
     display: flex;
     justify-content: end;
     align-items: center;
     padding: 0 2rem;
   }
-  .show-menu {
+  .show_menu {
     left: 0;
   }
-  .nav-title span {
+  .nav_title {
     display: none;
   }
 }

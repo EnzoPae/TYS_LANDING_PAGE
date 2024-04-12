@@ -1,5 +1,5 @@
 "use client";
-import "./card.slider.css";
+import classes from "./card.slider.module.css";
 import { useRef } from "react";
 //next
 import Link from "next/link";
@@ -18,7 +18,7 @@ const CardSlider = ({ cards, linkText, href }) => {
 
   return (
     <>
-      <div ref={carouselRef} className="carousel">
+      <div ref={carouselRef} className={classes.carousel}>
         {cards.map((card, index) => (
           <SliderCards
             key={index}
@@ -31,12 +31,14 @@ const CardSlider = ({ cards, linkText, href }) => {
           />
         ))}
       </div>
-      <div className="carousel-footer">
+      <div className={classes.footer}>
         <SliderArrows
           handleClickArrowLeft={() => handleIconClick("left")}
           handleClickArrowRight={() => handleIconClick("right")}
         />
-        <Link href={href ? href : ""}>{linkText ? linkText : ""}</Link>
+        <Link href={href ? href : ""} className={classes.footer_link}>
+          {linkText ? linkText : ""}
+        </Link>
       </div>
     </>
   );
