@@ -10,25 +10,25 @@ const ProyectosListado = () => {
       src: quequen,
       title: "Proyecto 1",
       description: desc,
-      href: ProyectosRoutesModel.SERVICIO_1,
+      href: ProyectosRoutesModel.PROYECTO_1,
     },
     {
       src: quequen,
       title: "Proyecto 2",
       description: desc,
-      href: ProyectosRoutesModel.SERVICIO_2,
+      href: ProyectosRoutesModel.PROYECTO_2,
     },
     {
       src: quequen,
       title: "Proyecto 3",
       description: desc,
-      href: ProyectosRoutesModel.SERVICIO_3,
+      href: ProyectosRoutesModel.PROYECTO_3,
     },
     {
       src: quequen,
       title: "Proyecto 4",
       description: desc,
-      href: ProyectosRoutesModel.SERVICIO_4,
+      href: ProyectosRoutesModel.PROYECTO_4,
     },
   ];
   return (
