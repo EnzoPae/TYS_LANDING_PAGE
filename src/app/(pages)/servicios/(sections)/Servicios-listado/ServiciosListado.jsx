@@ -32,14 +32,7 @@ const ServiciosListado = () => {
     },
   ];
   return (
-    <section className="gpl gpr mb-2">
-      <h3 className="fs-4 mt-2">Servicios</h3>
-      <p className="fs-1-5">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
-      </p>
+    <section className="gpl gpr mb-3 mt-3">
       <CardsGrid items={services} />
     </section>
   );
