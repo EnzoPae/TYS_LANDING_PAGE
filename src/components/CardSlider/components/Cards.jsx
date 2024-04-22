@@ -3,7 +3,7 @@ import Image from "next/image";
 import classes from "./cards.module.css";
 import { useRouter } from "next/navigation";
 
-const SliderCards = ({ firstImgRef, src, alt, desc, footerTitle, href }) => {
+const SliderCards = ({ firstImgRef, src, desc, footerTitle, href }) => {
   const router = useRouter();
 
   return (
@@ -14,7 +14,7 @@ const SliderCards = ({ firstImgRef, src, alt, desc, footerTitle, href }) => {
       <Image
         ref={firstImgRef}
         src={src}
-        alt={alt ? alt : "imagen"}
+        alt={footerTitle ? footerTitle : "imagen"}
         draggable={false}
         width="auto"
         className="img-styles"

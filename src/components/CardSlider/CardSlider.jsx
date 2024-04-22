@@ -24,7 +24,7 @@ const CardSlider = ({ cards, linkText, href }) => {
             key={index}
             firstImgRef={index === 0 ? firstImgRef : null}
             src={card.src}
-            alt={card.alt}
+            alt={card.footerTitle}
             desc={card.desc}
             footerTitle={card.footerTitle}
             href={card.href ? card.href : "#"}

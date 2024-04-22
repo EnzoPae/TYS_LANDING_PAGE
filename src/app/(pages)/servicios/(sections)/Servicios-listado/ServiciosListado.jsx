@@ -1,34 +1,64 @@
 import { CardsGrid } from "@/components";
 import timbues from "@/assets-official/timbues.webp";
-import { ServiciosRoutesModel } from "@/models";
+import { ServiciosModel } from "@/models";
 
 const ServiciosListado = () => {
   const desc =
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
   const services = [
     {
-      src: timbues,
-      title: "Servicio 1",
+      src: ServiciosModel.IngresoDeGranelesLiquidos.image,
+      title: ServiciosModel.IngresoDeGranelesLiquidos.name,
       description: desc,
-      href: ServiciosRoutesModel.SERVICIO_1,
+      href: "#",
+    },
+    {
+      src: ServiciosModel.DespachoDeUreaTratada.image,
+      title: ServiciosModel.DespachoDeUreaTratada.name,
+      description: desc,
+      href: "#",
+    },
+    {
+      src: ServiciosModel.DespachoDeGranelesLiquidos.image,
+      title: ServiciosModel.DespachoDeGranelesLiquidos.name,
+      description: desc,
+      href: "#",
     },
     {
       src: timbues,
-      title: "Servicio 2",
+      title: ServiciosModel.DespachoDeGranelesEnSistemasFijos.name,
       description: desc,
-      href: ServiciosRoutesModel.SERVICIO_2,
+      href: "#",
     },
     {
       src: timbues,
-      title: "Servicio 3",
+      title: ServiciosModel.DespachoDeGranelesEnBolsones.name,
       description: desc,
-      href: ServiciosRoutesModel.SERVICIO_3,
+      href: "#",
+    },
+    {
+      src: ServiciosModel.DespachoDeGranelesEmbolsados.image,
+      title: ServiciosModel.DespachoDeGranelesEmbolsados.name,
+      description: desc,
+      href: "#",
+    },
+    {
+      src: ServiciosModel.DesestibaDeBuques.image,
+      title: ServiciosModel.DesestibaDeBuques.name,
+      description: desc,
+      href: "#",
     },
     {
       src: timbues,
-      title: "Servicio 4",
+      title: ServiciosModel.DesestibaDeBarcazas.name,
       description: desc,
-      href: ServiciosRoutesModel.SERVICIO_4,
+      href: "#",
+    },
+    {
+      src: ServiciosModel.CargaDeProyectos.image,
+      title: ServiciosModel.CargaDeProyectos.name,
+      description: desc,
+      href: "#",
     },
   ];
   return (
