@@ -1,4 +1,8 @@
-import { BoxImage } from "@/components";
+//models
+import { MainRoutesModel } from "@/models";
+//components
+import { BannerItem } from "@/components";
+//images
 import quequen from "@/assets-official/quequen.webp";
 
 const Nosotros = () => {
@@ -6,12 +10,15 @@ const Nosotros = () => {
   const text =
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
   return (
-    <section className="min-h-100 flex align-items-center">
-      <BoxImage
-        src={quequen}
-        alt="imagen de quequen"
+    <section>
+      <BannerItem
         title={title}
-        text={text}
+        image={quequen}
+        description={text}
+        bgColor="bg-gamma"
+        buttonLight
+        buttonLabel="Saber Más"
+        buttonHref={MainRoutesModel.NOSOTROS}
       />
     </section>
   );
