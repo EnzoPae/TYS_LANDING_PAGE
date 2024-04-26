@@ -18,7 +18,7 @@ const DoubleImageFullScreen = ({ image, title, subtitle }) => {
         width="auto"
         className={`${classes.front_image} img-styles p-absolute right-0 gpr`}
       />
-      <div className="hero gpl gpr z-index-10">
+      <div className="gpl gpr z-index-10">
         <h1 className="fs-2 mb-2">{title ? title : ""}</h1>
         <h2 className={`${classes.subtitle} fs-4`}>
           {subtitle ? subtitle : ""}

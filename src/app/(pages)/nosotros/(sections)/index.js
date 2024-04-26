@@ -1,1 +1,4 @@
-export { default as Title } from "./Title";
+export * from "./Hero";
+export * from "./Info";
+export * from "./MoreInfo";
+export * from "./InfoWithImages";

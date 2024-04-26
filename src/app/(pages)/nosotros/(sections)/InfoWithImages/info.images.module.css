@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  width: 27%;
+  height: 55vh;
+}
+.box_info {
+  bottom: 0;
+  padding: 32px 16px;
+  background-color: hsla(214, 50%, 10%, 0.7);
+  text-align: center;
+}
+@media (max-width: 1024px) {
+  .card {
+    width: 30%;
+  }
+}
+@media (max-width: 800px) {
+  .wrapper {
+    flex-direction: column;
+    text-align: start;
+  }
+  .card {
+    width: auto;
+    margin: 8px 0;
+  }
+}

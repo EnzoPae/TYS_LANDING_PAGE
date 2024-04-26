@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.article {
+  width: 20%;
+}
+@media (max-width: 1024px) {
+  .article {
+    width: 30%;
+  }
+}
+@media (max-width: 800px) {
+  .wrapper {
+    flex-direction: column;
+    text-align: start;
+  }
+  .article {
+    width: auto;
+    margin-bottom: 16px;
+  }
+}

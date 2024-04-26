@@ -1,9 +1,13 @@
-import { Title } from "./(sections)";
+import { Hero, Info, MoreInfo, InfoWithImages } from "./(sections)";
 
 export default function Nosotros() {
   return (
     <main>
-      <Title />
+      <Hero />
+      <MoreInfo />
+      <Info />
+      <InfoWithImages />
+      <Info />
     </main>
   );
 }
