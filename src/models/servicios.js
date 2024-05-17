@@ -4,7 +4,9 @@ import EstibaDesestibaDeGranos from "@/assets/servicios/EstibaDesestibaDeGranos/
 import DespachoDeUreaTratada from "@/assets/servicios/DespachoDeUreaTratada/image.webp";
 import DespachoDeGranelesLiquidos from "@/assets/servicios/DespachoDeGranelesLiquidos/image.webp";
 import DespachoDeGranelesEmbolsados from "@/assets/servicios/DespachoDeGranelesEmbolsados/image.webp";
+import DespachoDeGranelesEnBolsones from "@/assets/servicios/DespachoDeGranelesEnBolsones/image.webp";
 import DespachoDeGranelesConZaranda from "@/assets/servicios/DespachoDeGranelesConZaranda/image.webp";
+import DespachoDeGranelesEnSistemasFijos from "@/assets/servicios/DespachoDeGranelesEnSistemasFijos/image.webp";
 import DesestibaDeBuques from "@/assets/servicios/DesestibaDeBuques/image.webp";
 import CargaDeProyectos from "@/assets/servicios/CargaDeProyectos/image.webp";
 import CargaDeFormacionesFerroviarias from "@/assets/servicios/CargaDeFormacionesFerroviarias/image.webp";
@@ -32,11 +34,9 @@ export const ServiciosModel = {
     name: "DESPACHO DE GRANELES LÍQUIDOS",
     image: DespachoDeGranelesLiquidos,
   },
-  DespachoDeGranelesEnSistemasFijos: {
-    name: "DESPACHO DE GRANELES EN SISTEMAS FIJOS",
-  },
   DespachoDeGranelesEnBolsones: {
     name: "DESPACHO DE GRANELES EN BOLSONES",
+    image: DespachoDeGranelesEnBolsones,
   },
   DespachoDeGranelesEmbolsados: {
     name: "DESPACHO DE GRANELES EMBOLSADOS",
@@ -45,6 +45,10 @@ export const ServiciosModel = {
   DespachoDeGranelesConZaranda: {
     name: "DESPACHO DE GRANELES CON ZARANDA - DESTERRONADOR",
     image: DespachoDeGranelesConZaranda,
+  },
+  DespachoDeGranelesEnSistemasFijos: {
+    name: "DESPACHO DE GRANELES EN SISTEMAS FIJOS",
+    image: DespachoDeGranelesEnSistemasFijos,
   },
   DesestibaDeBuques: {
     name: "DESESTIBA DE BUQUES",

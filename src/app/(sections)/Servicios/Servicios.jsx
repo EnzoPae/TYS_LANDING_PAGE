@@ -41,13 +41,13 @@ const Servicios = () => {
       href: "#",
     },
     {
-      src: timbues,
+      src: ServiciosModel.DespachoDeGranelesEnSistemasFijos.image,
       desc: desc,
       footerTitle: ServiciosModel.DespachoDeGranelesEnSistemasFijos.name,
       href: "#",
     },
     {
-      src: timbues,
+      src: ServiciosModel.DespachoDeGranelesEnBolsones.image,
       desc: desc,
       footerTitle: ServiciosModel.DespachoDeGranelesEnBolsones.name,
       href: "#",

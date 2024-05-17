@@ -70,11 +70,6 @@ const Navbar = () => {
               <SistemasMegamenu />
             </div>
           </li>
-          <li className={classes.nav_item}>
-            <Link href={MainRoutesModel.TEST} className={classes.nav_link}>
-              Test
-            </Link>
-          </li>
         </ul>
       </nav>
     </header>
