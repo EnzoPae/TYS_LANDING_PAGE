@@ -31,7 +31,7 @@ const CardSlider = ({ cards, linkText, href }) => {
           />
         ))}
       </div>
-      <div className={classes.footer}>
+      <div className={`${classes.footer} gpr`}>
         <SliderArrows
           handleClickArrowLeft={() => handleIconClick("left")}
           handleClickArrowRight={() => handleIconClick("right")}
