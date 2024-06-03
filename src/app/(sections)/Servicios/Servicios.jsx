@@ -3,7 +3,7 @@ import { MainRoutesModel, ServiciosModel } from "@/models";
 //custom components
 import { CardSlider } from "@/components";
 //images
-import timbues from "@/assets-official/timbues.webp";
+import image_0000 from "@/images/empresa/0000.webp";
 
 const Servicios = () => {
   const desc =
@@ -71,7 +71,7 @@ const Servicios = () => {
       href: "#",
     },
     {
-      src: timbues,
+      src: image_0000,
       desc: desc,
       footerTitle: ServiciosModel.DesestibaDeBarcazas.name,
       href: "#",

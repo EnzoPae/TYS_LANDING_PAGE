@@ -3,35 +3,35 @@ import { ProyectosRoutesModel, MainRoutesModel } from "@/models";
 //custom components
 import { CardSlider } from "@/components";
 //images
-import timbues from "@/assets-official/timbues.webp";
+import image_0000 from "@/images/empresa/0000.webp";
 
 const Proyectos = () => {
   const desc =
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
   const cards = [
     {
-      src: timbues,
+      src: image_0000,
       alt: "img",
       desc: desc,
       footerTitle: "Proyecto 1",
       href: ProyectosRoutesModel.PROYECTO_1,
     },
     {
-      src: timbues,
+      src: image_0000,
       alt: "img",
       desc: desc,
       footerTitle: "Proyecto 2",
       href: ProyectosRoutesModel.PROYECTO_2,
     },
     {
-      src: timbues,
+      src: image_0000,
       alt: "img",
       desc: desc,
       footerTitle: "Proyecto 3",
       href: ProyectosRoutesModel.PROYECTO_3,
     },
     {
-      src: timbues,
+      src: image_0000,
       alt: "img",
       desc: desc,
       footerTitle: "Proyecto 4",

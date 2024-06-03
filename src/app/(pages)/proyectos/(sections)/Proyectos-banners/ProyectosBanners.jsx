@@ -1,13 +1,13 @@
 //images
-import quequen from "@/assets-official/quequen.webp";
+import image_0000 from "@/images/empresa/0000.webp";
 //custom components
 import { BannerItem } from "@/components";
 
 const ProyectosBanners = () => {
   return (
     <section className="mb-2">
-      <BannerItem image={quequen} title="Lorem Ipsum" />
-      <BannerItem invert image={quequen} title="Lorem Ipsum" />
+      <BannerItem image={image_0000} title="Lorem Ipsum" />
+      <BannerItem invert image={image_0000} title="Lorem Ipsum" />
     </section>
   );
 };

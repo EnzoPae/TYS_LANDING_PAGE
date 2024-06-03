@@ -7,15 +7,11 @@ import Image from "next/image";
 //models
 import { MainRoutesModel } from "@/models";
 //images
-import logo from "@/assets/logo.webp";
+import logo from "@/images/empresa/logo.webp";
 //icons
 import { TimesIcon, MenuIcon } from "@/icons";
 //menus
-import {
-  ServiciosMegamenu,
-  SistemasMegamenu,
-  ProyectosMegamenu,
-} from "./components";
+import { ServiciosMegamenu, SistemasMegamenu } from "./components";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -54,13 +50,10 @@ const Navbar = () => {
               <ServiciosMegamenu />
             </div>
           </li>
-          <li className={`${classes.nav_item} ${classes.dropdown}`}>
-            <Link href="" className={classes.nav_link}>
+          <li className={`${classes.nav_item}`}>
+            <Link href={MainRoutesModel.PROYECTOS} className={classes.nav_link}>
               Proyectos
             </Link>
-            <div className={`${classes.megamenu} bg-primary`}>
-              <ProyectosMegamenu />
-            </div>
           </li>
           <li className={`${classes.nav_item} ${classes.dropdown}`}>
             <Link href="" className={classes.nav_link}>

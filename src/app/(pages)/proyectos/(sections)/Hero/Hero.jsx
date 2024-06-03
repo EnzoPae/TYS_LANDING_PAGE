@@ -1,11 +1,11 @@
-import timbues from "@/assets-official/timbues.webp";
+import image_0000 from "@/images/empresa/0000.webp";
 import { DoubleImageFullScreen } from "@/components";
 
 const Hero = () => {
   return (
     <section>
       <DoubleImageFullScreen
-        image={timbues}
+        image={image_0000}
         title="TERMINALES & SERVICIOS"
         subtitle="MIRA LA AMPLIA GAMA DE PROYECTOS REALIZADOS."
       />

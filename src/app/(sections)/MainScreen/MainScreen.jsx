@@ -4,14 +4,11 @@ import { useState } from "react";
 //next js
 import Image from "next/image";
 //assets
-import sn_noche from "@/assets-official/sn-noche.webp";
-import sn_noche_2 from "@/assets-official/sn-noche-2.webp";
-import quequen from "@/assets-official/quequen.webp";
-import timbues from "@/assets-official/timbues.webp";
+import main_images from "@/images/empresa/0000.webp";
 //icons
 import { ChevronLeftIcon, ChevronRightIcon } from "@/icons";
 
-const images = [quequen, sn_noche, sn_noche_2, timbues];
+const images = [main_images, main_images];
 
 const MainScreen = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);

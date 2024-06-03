@@ -1,13 +1,13 @@
 import Image from "next/image";
 //logos
-import abstract from "@/assets/logos/abstract.svg";
-import aib from "@/assets/logos/aib.svg";
-import crunchyroll from "@/assets/logos/crunchyroll.svg";
-import edeka from "@/assets/logos/edeka.svg";
-import gsmarenadotcom from "@/assets/logos/gsmarenadotcom.svg";
-import liberapay from "@/assets/logos/liberapay.svg";
-import ndr from "@/assets/logos/ndr.svg";
-import strava from "@/assets/logos/strava.svg";
+import abstract from "@/logos/abstract.svg";
+import aib from "@/logos/aib.svg";
+import crunchyroll from "@/logos/crunchyroll.svg";
+import edeka from "@/logos/edeka.svg";
+import gsmarenadotcom from "@/logos/gsmarenadotcom.svg";
+import liberapay from "@/logos/liberapay.svg";
+import ndr from "@/logos/ndr.svg";
+import strava from "@/logos/strava.svg";
 
 const ClientesLogos = () => {
   return (

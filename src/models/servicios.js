@@ -1,72 +1,72 @@
-import IngresoDeGranelesLiquidos from "@/assets/servicios/IngresoDeGranelesLiquidos/image.webp";
-import IngresoDeGranelesEnDeposito from "@/assets/servicios/IngresoDeGranelesEnDeposito/image.webp";
-import EstibaDesestibaDeGranos from "@/assets/servicios/EstibaDesestibaDeGranos/image.webp";
-import DespachoDeUreaTratada from "@/assets/servicios/DespachoDeUreaTratada/image.webp";
-import DespachoDeGranelesLiquidos from "@/assets/servicios/DespachoDeGranelesLiquidos/image.webp";
-import DespachoDeGranelesEmbolsados from "@/assets/servicios/DespachoDeGranelesEmbolsados/image.webp";
-import DespachoDeGranelesEnBolsones from "@/assets/servicios/DespachoDeGranelesEnBolsones/image.webp";
-import DespachoDeGranelesConZaranda from "@/assets/servicios/DespachoDeGranelesConZaranda/image.webp";
-import DespachoDeGranelesEnSistemasFijos from "@/assets/servicios/DespachoDeGranelesEnSistemasFijos/image.webp";
-import DesestibaDeBuques from "@/assets/servicios/DesestibaDeBuques/image.webp";
-import CargaDeProyectos from "@/assets/servicios/CargaDeProyectos/image.webp";
-import CargaDeFormacionesFerroviarias from "@/assets/servicios/CargaDeFormacionesFerroviarias/image.webp";
-import AlmacenajeDeGranelesLiquidos from "@/assets/servicios/AlmacenajeDeGranelesLiquidos/image.webp";
+import image_0000 from "@/images/servicios/0000.webp";
+import image_0001 from "@/images/servicios/0001.webp";
+import image_0002 from "@/images/servicios/0002.webp";
+import image_0003 from "@/images/servicios/0003.webp";
+import image_0004 from "@/images/servicios/0004.webp";
+import image_0005 from "@/images/servicios/0005.webp";
+import image_0006 from "@/images/servicios/0006.webp";
+import image_0007 from "@/images/servicios/0007.webp";
+import image_0008 from "@/images/servicios/0008.webp";
+import image_0009 from "@/images/servicios/0009.webp";
+import image_0010 from "@/images/servicios/0010.webp";
+import image_0011 from "@/images/servicios/0011.webp";
+import image_0012 from "@/images/servicios/0012.webp";
 
 //14 servicios
 export const ServiciosModel = {
-  IngresoDeGranelesLiquidos: {
-    name: "INGRESO DE GRANELES LÍQUIDOS",
-    image: IngresoDeGranelesLiquidos,
-  },
-  IngresoDeGranelesEnDeposito: {
-    name: "INGRESO DE GRANELES EN DEPÓSITOS",
-    image: IngresoDeGranelesEnDeposito,
-  },
-  EstibaDesestibaDeGranos: {
-    name: "ESTIBA Y DESESTIBA DE GRANOS",
-    image: EstibaDesestibaDeGranos,
-  },
-  DespachoDeUreaTratada: {
-    name: "DESPACHO DE UREA TRATADA",
-    image: DespachoDeUreaTratada,
-  },
-  DespachoDeGranelesLiquidos: {
-    name: "DESPACHO DE GRANELES LÍQUIDOS",
-    image: DespachoDeGranelesLiquidos,
-  },
-  DespachoDeGranelesEnBolsones: {
-    name: "DESPACHO DE GRANELES EN BOLSONES",
-    image: DespachoDeGranelesEnBolsones,
-  },
-  DespachoDeGranelesEmbolsados: {
-    name: "DESPACHO DE GRANELES EMBOLSADOS",
-    image: DespachoDeGranelesEmbolsados,
-  },
-  DespachoDeGranelesConZaranda: {
-    name: "DESPACHO DE GRANELES CON ZARANDA - DESTERRONADOR",
-    image: DespachoDeGranelesConZaranda,
-  },
-  DespachoDeGranelesEnSistemasFijos: {
-    name: "DESPACHO DE GRANELES EN SISTEMAS FIJOS",
-    image: DespachoDeGranelesEnSistemasFijos,
-  },
-  DesestibaDeBuques: {
-    name: "DESESTIBA DE BUQUES",
-    image: DesestibaDeBuques,
-  },
-  DesestibaDeBarcazas: {
-    name: "DESESTIBA DE BARCAZAS",
-  },
-  CargaDeProyectos: {
-    name: "CARGA DE PROYECTOS",
-    image: CargaDeProyectos,
+  AlmacenajeDeGranelesLiquidos: {
+    name: "ALMACENAJE DE GRANELES LÍQUIDOS",
+    image: image_0000,
   },
   CargaDeFormacionesFerroviarias: {
     name: "CARGA DE FORMACIONES FERROVIARIAS",
-    image: CargaDeFormacionesFerroviarias,
+    image: image_0001,
   },
-  AlmacenajeDeGranelesLiquidos: {
-    name: "ALMACENAJE DE GRANELES LÍQUIDOS",
-    image: AlmacenajeDeGranelesLiquidos,
+  CargaDeProyectos: {
+    name: "CARGA DE PROYECTOS",
+    image: image_0002,
+  },
+  DesestibaDeBuques: {
+    name: "DESESTIBA DE BUQUES",
+    image: image_0003,
+  },
+  DespachoDeGranelesConZaranda: {
+    name: "DESPACHO DE GRANELES CON ZARANDA - DESTERRONADOR",
+    image: image_0004,
+  },
+  DespachoDeGranelesEmbolsados: {
+    name: "DESPACHO DE GRANELES EMBOLSADOS",
+    image: image_0005,
+  },
+  DespachoDeGranelesEnBolsones: {
+    name: "DESPACHO DE GRANELES EN BOLSONES",
+    image: image_0006,
+  },
+  DespachoDeGranelesEnSistemasFijos: {
+    name: "DESPACHO DE GRANELES EN SISTEMAS FIJOS",
+    image: image_0007,
+  },
+  DespachoDeGranelesLiquidos: {
+    name: "DESPACHO DE GRANELES LÍQUIDOS",
+    image: image_0008,
+  },
+  DespachoDeUreaTratada: {
+    name: "DESPACHO DE UREA TRATADA",
+    image: image_0009,
+  },
+  EstibaDesestibaDeGranos: {
+    name: "ESTIBA Y DESESTIBA DE GRANOS",
+    image: image_0010,
+  },
+  IngresoDeGranelesEnDeposito: {
+    name: "INGRESO DE GRANELES EN DEPÓSITOS",
+    image: image_0011,
+  },
+  IngresoDeGranelesLiquidos: {
+    name: "INGRESO DE GRANELES LÍQUIDOS",
+    image: image_0012,
+  },
+  DesestibaDeBarcazas: {
+    name: "DESESTIBA DE BARCAZAS",
   },
 };

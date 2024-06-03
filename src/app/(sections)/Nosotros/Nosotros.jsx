@@ -3,7 +3,7 @@ import { MainRoutesModel } from "@/models";
 //components
 import { BannerItem } from "@/components";
 //images
-import quequen from "@/assets-official/quequen.webp";
+import image_0000 from "@/images/empresa/0000.webp";
 
 const Nosotros = () => {
   const title = "¿Quienes Somos?";
@@ -13,7 +13,7 @@ const Nosotros = () => {
     <section>
       <BannerItem
         title={title}
-        image={quequen}
+        image={image_0000}
         description={text}
         bgColor="bg-gamma"
         buttonLight

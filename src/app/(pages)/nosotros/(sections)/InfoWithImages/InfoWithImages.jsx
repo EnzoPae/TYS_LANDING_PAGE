@@ -1,8 +1,8 @@
 import classes from "./info.images.module.css";
 import Image from "next/image";
-import image_0002 from "@/assets/0002.webp";
-import image_0003 from "@/assets/0003.webp";
-import image_0004 from "@/assets/0004.webp";
+import image_0002 from "@/images/empresa/0002.webp";
+import image_0003 from "@/images/empresa/0003.webp";
+import image_0004 from "@/images/empresa/0004.webp";
 
 const InfoWithImages = () => {
   return (

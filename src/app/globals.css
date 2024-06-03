@@ -20,9 +20,6 @@
   --spacing-md: 32px;
   --spacing-lg: 48px;
 }
-html {
-  scroll-behavior: smooth !important;
-}
 a {
   text-decoration: none;
   color: white;

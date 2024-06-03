@@ -1,5 +1,5 @@
 import { CardsGrid } from "@/components";
-import timbues from "@/assets-official/timbues.webp";
+import image_0000 from "@/images/empresa/0000.webp";
 import { ServiciosModel } from "@/models";
 
 const ServiciosListado = () => {
@@ -25,13 +25,13 @@ const ServiciosListado = () => {
       href: "#",
     },
     {
-      src: timbues,
+      src: image_0000,
       title: ServiciosModel.DespachoDeGranelesEnSistemasFijos.name,
       description: desc,
       href: "#",
     },
     {
-      src: timbues,
+      src: image_0000,
       title: ServiciosModel.DespachoDeGranelesEnBolsones.name,
       description: desc,
       href: "#",
@@ -49,7 +49,7 @@ const ServiciosListado = () => {
       href: "#",
     },
     {
-      src: timbues,
+      src: image_0000,
       title: ServiciosModel.DesestibaDeBarcazas.name,
       description: desc,
       href: "#",
